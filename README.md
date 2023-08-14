@@ -30,7 +30,7 @@ To run and interact with these projects, you will need:
 - [Hardhat](https://hardhat.org/getting-started/#overview) development environment
 - [Camino Wallet](https://wallet.camino.foundation/)
 
-## Quickstart
+## 🌌 Quickstart
 
 To get started with Camino Builder, follow the steps below:
 Clone this repo & install dependencies
@@ -62,9 +62,10 @@ npx hardhat run scripts/deploy.ts --network localhost
 
 ## Start Building
  - 🍋  [Create your first NFT](https://github.com/camino-builder/tree/nft)
- - 🍇  [Build a staking smart contract](https://github.com/camino-builder/tree/staking)
- - 🥝  [Deploy a token](https://github.com/camino-builder/tree/token)
- - 🍓  [Build a Liquidity Pool](https://github.com/camino-builder/tree/liquidity-pool)
+ - 🎫  [Make a token-gate access NFT](https://github.com/camino-builder/tree/token-gate)
+ - 💎  [Deploy a token](https://github.com/camino-builder/tree/token)
+ - 💵  [Build a staking smart contract](https://github.com/camino-builder/tree/staking)
+ - 📊  [Build a Liquidity Pool](https://github.com/camino-builder/tree/liquidity-pool)
 
 ## Put it to test
 
