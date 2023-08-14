@@ -1,0 +1,7 @@
+{
+  "name": "camino-builder_simple-nft",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^2.0.2",
+    "hardhat": "^2.17.1"
+  }
+}
