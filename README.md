@@ -61,16 +61,16 @@ npx hardhat run scripts/deploy.ts --network localhost
 ```
 
 ## Start Building
- - 🍋  [Create your first NFT](https://github.com/camino-builder/tree/nft)
- - 🎫  [Make a token-gate access NFT](https://github.com/camino-builder/tree/token-gate)
- - 💸  [Write your own minting logic](https://github.com/camino-builder/tree/mint)
- - 💎  [Deploy a token](https://github.com/camino-builder/tree/token)
+ - 🍋  [Create your first NFT](https://github.com/chain4travel/camino-builder/tree/nft)
+ - 🎫  [Make a token-gate access NFT](https://github.com/chain4travel/camino-builder/tree/token-gate)
+ - 💸  [Write your own minting logic](https://github.com/chain4travel/camino-builder/tree/mint)
+ - 💎  [Deploy a token](https://github.com/chain4travel/camino-builder/tree/token)
  - 💵  [Build a staking smart contract](https://github.com/camino-builder/tree/staking)
  - 📊  [Build a Liquidity Pool](https://github.com/camino-builder/tree/liquidity-pool)
 
 ## Interact with smart contracts
- -     [Insure your flight](https://github.com/camino-builder/tree/insurance)
- -     [Participate in a staking campaign](https://github.com/camino-builder/tree/staking-interact)
+ -    [Insure your flight](https://github.com/chain4travel/camino-builder/tree/insurance)
+ -    [Participate in a staking campaign](https://github.com/chain4travel/camino-builder/tree/staking-interact)
 
 ## Put it to test
 
