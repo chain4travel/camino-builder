@@ -63,13 +63,18 @@ npx hardhat run scripts/deploy.ts --network localhost
 ## Start Building
  - 🍋  [Create your first NFT](https://github.com/camino-builder/tree/nft)
  - 🎫  [Make a token-gate access NFT](https://github.com/camino-builder/tree/token-gate)
+ - 💸  [Write your own minting logic](https://github.com/camino-builder/tree/mint)
  - 💎  [Deploy a token](https://github.com/camino-builder/tree/token)
  - 💵  [Build a staking smart contract](https://github.com/camino-builder/tree/staking)
  - 📊  [Build a Liquidity Pool](https://github.com/camino-builder/tree/liquidity-pool)
 
+## Interact with smart contracts
+ -     [Insure your flight](https://github.com/camino-builder/tree/insurance)
+ -     [Participate in a staking campaign](https://github.com/camino-builder/tree/staking-interact)
+
 ## Put it to test
 
-Tests are important.Surprisingly, they are also a good place to learn how the ecosystem is designed to work. You can also learn some interesting techniques and tools making testing process fun. 
+Tests are important. Surprisingly, they are also a good place to learn how the ecosystem is designed to work. You can also learn some interesting techniques and tools making testing process fun. 
 
 -  [Testing NFT](https://github.com/camino-builder/tree/testing-nft)
 -  [Testing Staking](https://github.com/camino-builder/tree/testing-staking)
