@@ -15,8 +15,8 @@
 
 - [Requirements](#requirements)
 - [Quickstart](#quickstart)
-- [Deploy the contracts to columbus](#deploy-the-contracts-to-columbus)
-- [Interacting with Smart Contracts](#interacting-with-smart-contracts)
+- [Start Building](#start-building)
+- [Take on the challenges](#take-one-the-challenges)
 - [Contributing to Camino Builder](#contributing-to-camino-builder)
 
 ## Requirements
@@ -43,6 +43,9 @@ npm install
 
 Create a `.env` file in the root directory and configure it with your Camino wallet's private key and a [Columbus testnet]() API key for deploying to testnets:
 
+
+- [How to retrieve your private key](github.com)
+
 ```dotenv
 PRIVATE_KEY="your_private_key"
 COLUMBUS_API_KEY="your_columbus_api_key"
@@ -68,9 +71,12 @@ npx hardhat run scripts/deploy.ts --network localhost
  - 💵  [Build a staking smart contract](https://github.com/camino-builder/tree/staking)
  - 📊  [Build a Liquidity Pool](https://github.com/camino-builder/tree/liquidity-pool)
 
-## Interact with smart contracts
- -    [Insure your flight](https://github.com/chain4travel/camino-builder/tree/insurance)
- -    [Participate in a staking campaign](https://github.com/chain4travel/camino-builder/tree/staking-interact)
+ ## 📼 Take on the Challenges
+ - 🐳  [Mint tokens](https://github.com/chain4travel/camino-builder/tree/mint-tokens)
+ - 🐠  [Mint an NFT ticket](https://github.com/chain4travel/camino-builder/tree/mint-nft)
+ - 🐢  [Stake your tokens](https://github.com/chain4travel/camino-builder/tree/stake-tokens)
+ - 🐙  [Insure your ticket](https://github.com/chain4travel/camino-builder/tree/ensure-ticket)
+
 
 ## Put it to test
 
