@@ -1,4 +1,4 @@
-# Have your own token on Columbus network
+# 💎 Deploy your own token on Columbus network
 
 ## 🏁 [Prepare the environment](https://github.com/chain4travel/camino-builder/README.MD#Quickstart)
 
@@ -32,16 +32,5 @@ npx hardhat run scripts/deploy.ts --network columbus
 
 ![image](https://github.com/juuroudojo/images/blob/main/Image%2018.08.2023%20at%2001.34.jpeg)
 
-> Run the script minting the tokens. You can modify the amount you want to be minted in `scripts/mint.ts`
 
-```
-npx hardhat run scripts/mint.ts --network columbus
-```
-Wait for transaction to go through
-
-Feel free to send your newly established token to your friends.
-
-
-
-
-# [BACK TO MAINPAGE](https://github.com/chain4travel/camino-builder)
+## 🎑 [Back to Mainpage](https://github.com/chain4travel/camino-builder)
