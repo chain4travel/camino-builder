@@ -1,38 +1,41 @@
-## Creating a wallet
+# Have your own token on Columbus network
+
+## 🏁 [Prepare the environment](https://github.com/chain4travel/camino-builder/README.MD#Quickstart)
+
+> In `contracts/` you will find a file `Token.sol`. Give your token a fancy name and symbol.
+
+![image](https://github.com/juuroudojo/images/blob/main/Image%2018.08.2023%20at%2001.03.jpeg)
+
+> Compile and Deploy the contract
+
+```
+npx hardhat compile
+npx hardhat run scripts/deploy.ts --network columbus
+```
 
 
+> After the contract is successfully deployed you'll see the address of your token in the terminal. Copy this addres to clipboard.
 
+![image](https://github.com/juuroudojo/images/blob/main/Image%2018.08.2023%20at%2001.16.jpeg)
 
-## Retriving your Camino Wallet private key
+> Go to [Camino Wallet](https://suite.camino.network). Open homepage and click on Add Token. Paste the address from your terminal.
 
-Go to [Camino Wallet](https://suite.camino.network)
+![image](https://github.com/juuroudojo/images/blob/main/Image%2018.08.2023%20at%2001.21.jpeg)
 
-Navigate to Manage Keys section
+![image](https://github.com/juuroudojo/images/blob/main/Image%2018.08.2023%20at%2001.29.jpeg)
 
-![image](https://github.com/juuroudojo/images/blob/main/Image%2016.08.2023%20at%2004.11.jpeg)
+> Congrats! Your token is on columbus. You should now be able to see your balance of your new token in the Assets menu.
 
-Click on View Private Key
+![image](https://github.com/juuroudojo/images/blob/main/Image%2018.08.2023%20at%2001.34.jpeg)
 
-![image](https://github.com/juuroudojo/images/blob/main/Image%2016.08.2023%20at%2004.13.jpeg)
+> Run the script minting the tokens. You can modify the amount you want to be minted in `scripts/mint.ts`
 
-> ### Notice: Never share this private key with anyone! knowing this key presumes having full control over your wallet
+```
+npx hardhat run scripts/mint.ts --network columbus
+```
+Wait for transaction to go through
 
-
-## Getting Columbus Network CAM tokens
-
-Go to your [Camino Wallet](https://suite.camino.network)
-
-Switch the network to columbus
-
-On the porfolio page copy your X-chain address (it should start with X-columbus)
-
-Go to [Camino Discord](https://discord.gg/camino)
-
-In any of the text channels type /faucet and use the suggested command by entering the address you just copied and amount you want (You are limited to 25 a day). Wait for the transaction to go through.
-
-Now we will need to transfer the tokens to C-chain. Go back to your Camino Wallet. Navigate to Cross Chain.
-
-Set Source Chain to X Chain and Destination Chain to C Chain, send Max amount.
+Feel free to send your newly established token to your friends.
 
 
 
