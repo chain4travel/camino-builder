@@ -51,19 +51,7 @@ PRIVATE_KEY="your_private_key"
 COLUMBUS_API_KEY="your_columbus_api_key"
 ```
 
-Compile the smart contracts:
-
-```bash
-npx hardhat compile
-```
-
-Deploy the contracts to a local test network or a public testnet using Hardhat:
-
-```bash
-npx hardhat run scripts/deploy.ts --network localhost
-```
-
-## Start Building
+## 📜 Start Building
  - 🍋  [Create your first NFT](https://github.com/chain4travel/camino-builder/tree/nft)
  - 🎫  [Make a token-gate access NFT](https://github.com/chain4travel/camino-builder/tree/token-gate)
  - 💸  [Write your own minting logic](https://github.com/chain4travel/camino-builder/tree/mint)
