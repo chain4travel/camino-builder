@@ -12,7 +12,7 @@ git checkout nft
 npm i
 ```
 
-[Set up your .env](setup/README.MD#set-up-your-env)
+[Setting Up .env File](../setup/README.md#setting-up-env-file)
 
 ## 🌳 Build
 
