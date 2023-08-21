@@ -14,7 +14,6 @@
 ## Contents
 
 - [Requirements](#requirements)
-- [Quickstart](#quickstart)
 - [Start Building](#start-building)
 - [Take on the challenges](#take-one-the-challenges)
 - [Contributing to Camino Builder](#contributing-to-camino-builder)
@@ -30,26 +29,11 @@ To run and interact with these projects, you will need:
 - [Hardhat](https://hardhat.org/getting-started/#overview) development environment
 - [Camino Wallet](https://wallet.camino.foundation/)
 
-## 🌌 Quickstart
+## 🌌 Deployed Contracts
+ERC20 Token (Freemint) -
+NFT (Freemint) -
+Insurance -
 
-To get started with Camino Builder, follow the steps below:
-Clone this repo & install dependencies
-
-```
-git clone https://github.com/camino-builder
-cd camino-builder
-npm install
-
-
-Create a `.env` file in the root directory and configure it with your Camino wallet's private key and a [Columbus testnet]() API key for deploying to testnets:
-
-
-- [How to retrieve your private key](github.com)
-
-```dotenv
-PRIVATE_KEY="your_private_key"
-COLUMBUS_API_KEY="your_columbus_api_key"
-```
 
 ## 📜 Start Building
  - 🍋  [Create your first NFT](https://github.com/chain4travel/camino-builder/tree/nft)
@@ -59,22 +43,14 @@ COLUMBUS_API_KEY="your_columbus_api_key"
  - 💵  [Build a staking smart contract](https://github.com/camino-builder/tree/staking)
  - 📊  [Build a Liquidity Pool](https://github.com/camino-builder/tree/liquidity-pool)
 
- ## 📼 Take on the Challenges
+ ## 📼 Interact with the Contracts
  - 🐳  [Mint tokens](https://github.com/chain4travel/camino-builder/tree/mint-tokens)
  - 🐠  [Mint an NFT ticket](https://github.com/chain4travel/camino-builder/tree/mint-nft)
  - 🐢  [Stake your tokens](https://github.com/chain4travel/camino-builder/tree/stake-tokens)
  - 🐙  [Insure your ticket](https://github.com/chain4travel/camino-builder/tree/ensure-ticket)
 
-
-## Put it to test
-
-Tests are important. Surprisingly, they are also a good place to learn how the ecosystem is designed to work. You can also learn some interesting techniques and tools making testing process fun. 
-
--  [Testing NFT](https://github.com/camino-builder/tree/testing-nft)
--  [Testing Staking](https://github.com/camino-builder/tree/testing-staking)
--  [Testing Token](https://github.com/camino-builder/tree/testing-token)
--  [Testing Liquidity Pool](https://github.com/camino-builder/tree/testing-liquidity-pool)
-
+## List of deployed smart contracts
+ 
 
 ## Contact Us
 
