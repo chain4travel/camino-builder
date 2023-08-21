@@ -1,10 +1,8 @@
-#  NFT Tickets
+#  🍱 NFT Tickets
 
-> NFT's are most widely associated with art pieces and nothing deeper to it. In reality, NFTs are a take on crucial idea of digitizing or tokenizing the assets. One of the use-cases uncovering the potential of NFT implementations is ticketing/token-gating.
+> NFT's are most widely associated with art pieces and nothing deeper to it. In reality, NFTs are a take on crucial idea of digitizing or tokenizing the assets. One of the use-cases uncovering the potential of NFT implementations is ticketing/token-gating. We'll create a very basic implementation of a ticketing system and show you how it works.
 
-We'll create a very basic implementation of a ticketing system and show you how it works.
-
-## Quick setup
+## 🌌 Quick setup
 ```
 git clone https://github.com/chain4travel/camino-builder.git token-gate
 
@@ -15,7 +13,7 @@ npm i
 
 [Set up your .env](https://github.com/chain4trav)
 
-## Build
+## 💿 Build
 
 > In 'contracts' you'll see 2 files: 'TicketNFT.sol' and 'TicketBooth'. Go to NFT and set the Name and Symbol of the ticket/event. Choose the amount of tickets to be sold.
 
