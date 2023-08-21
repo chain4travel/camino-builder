@@ -29,10 +29,11 @@ To run and interact with these projects, you will need:
 - [Hardhat](https://hardhat.org/getting-started/#overview) development environment
 - [Camino Wallet](https://wallet.camino.foundation/)
 
-## 🌌 Deployed Contracts
-ERC20 Token (Freemint) -
-NFT (Freemint) -
-Insurance -
+## 🌌 Deployed Interactable Contracts:
+- ERC20 Token (Freemint) - 0x33379Cfc30733E2D7E7acB39a0651D84738E600d
+- NFT721 (Freemint) - 0xBd71045Bec720fa5BD349483C3e9148596BfF3b4
+- Staking Platform - 0x7b10388ba821f1d88f8C25A749fA162f8f42B6C6
+- Liquidity Pool - 0xf7f0EF5907965b87DDE77CA86721657E54Edd377
 
 
 ## 📜 Start Building
