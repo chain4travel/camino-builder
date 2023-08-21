@@ -1,7 +1,18 @@
-## Creating a wallet
+# Setup
 
 
+## Setting Up .env File
 
+In the repository you cloned create a file with a name .env
+
+.env file should look like this:
+
+```
+COLUMBUS_URL = camino.network/rpc
+PRIVATE_KEY = l726162738732732832932
+```
+Working RPC endpoint can be found [here](https://docs.camino.network/guides/metamask-rpc-endpoints/index.html)
+To access the private key refer to the next step
 
 ## Retriving your Camino Wallet private key
 
@@ -15,7 +26,7 @@ Click on View Private Key
 
 ![image](https://github.com/juuroudojo/images/blob/main/Image%2016.08.2023%20at%2004.13.jpeg)
 
-> ### Notice: Never share this private key with anyone! knowing this key presumes having full control over your wallet
+> ### ⚠️ Warning: Never share this private key with anyone! knowing this key presumes having full control over your wallet
 
 
 ## Getting Columbus Network CAM tokens
@@ -33,8 +44,6 @@ In any of the text channels type /faucet and use the suggested command by enteri
 Now we will need to transfer the tokens to C-chain. Go back to your Camino Wallet. Navigate to Cross Chain.
 
 Set Source Chain to X Chain and Destination Chain to C Chain, send Max amount.
-
-
 
 
 # [BACK TO MAINPAGE](https://github.com/chain4travel/camino-builder)
