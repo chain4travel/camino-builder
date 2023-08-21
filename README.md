@@ -1,15 +1,24 @@
-# 💎 Deploy your own token on Columbus network
+# Build a full-fledged Staking platform
 
-## 🏁 [Prepare the environment](https://github.com/chain4travel/camino-builder/README.MD#Quickstart)
+### 🏁 Prepare the environment
 
+```
+git clone https://github.com/chain4travel/camino-builder.git staking
 
-### Step 1
+cd token-gate
+git checkout token-gate
+npm i
+```
 
-> 🔧 In `contracts/` you will find a file `Token.sol`. Give your token a fancy name and symbol. You can also modify the initial supply that is going to be minted
+[Set up your .env](setup/README.md#setting-up-env-file)
 
-![image](https://github.com/juuroudojo/images/blob/main/Image%2018.08.2023%20at%2001.03.jpeg)
+> For this example you'll need to have a KYC-verified wallet. Refer [here](https://docs.camino.network/guides/kyc/index.html) to find out how to do it
 
-> Compile and Deploy the contract.
+## Step 1
+
+> 🔧 Look for staking contract in /contracts. You are encouraged to inspect it and modify it. Breaking everything will only make you better eventually.
+
+> Compile and Deploy the contracts.
 
 ```
 npx hardhat compile
@@ -18,19 +27,18 @@ npx hardhat run scripts/deploy.ts --network columbus
 
 > 📎 After the contract is successfully deployed you'll see the address of your token in the terminal. Copy this addres to clipboard.
 
-![image](https://github.com/juuroudojo/images/blob/main/Image%2018.08.2023%20at%2001.16.jpeg)
 
 ## Step 2
 
-> Go to [Camino Wallet](https://suite.camino.network/wallet). At the upper right switch the network to Columbus. Open homepage and click on Add Token. Paste the address from your terminal. If everything is correct you will see a popup window previewing name, symbol and decimals of your token (18 if you haven't modified the code).
+> Try interacting with the staking through a script. Modify the numbers and conditions in scripts/stake.ts
 
-![image](https://github.com/juuroudojo/images/blob/main/Image%2018.08.2023%20at%2001.21.jpeg)
+```
+npx hardhat run scripts/stake.ts
+```
 
-![image](https://github.com/juuroudojo/images/blob/main/Image%2018.08.2023%20at%2001.29.jpeg)
+## Step 3
 
-> ♥️ Congrats! Your token is live. You should now be able to see your balance of your new token in the Assets menu.
-
-![image](https://github.com/juuroudojo/images/blob/main/Image%2018.08.2023%20at%2001.34.jpeg)
+> Now try calling the same script, but using a wallet without KYC-verification. You can use any wallet, just make sure it has some CAM in it. The platform will revert the call and inform the user that he needs to be KYC-verified.
 
 
 ## 🎑 [Back to Mainpage](https://github.com/chain4travel/camino-builder)

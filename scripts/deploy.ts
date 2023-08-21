@@ -10,6 +10,9 @@ async function main() {
     const token = await Token.deploy(ethers.utils.parseEther("3"));
 
     await token.deployed();
+
+    const Staking = await ethers.getContractFactory("Staking")
+    const staking = await Staking.deploy(token.address), ethers.utils.parseEther("1"));
     
     console.log(
       "Token deployed to:", token.address
