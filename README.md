@@ -1,7 +1,7 @@
-# Setup
+# 🔬 Setup
 
 
-## Setting Up .env File
+## 🛅 Setting Up .env File
 
 In the repository you cloned create a file with a name .env
 
@@ -14,7 +14,7 @@ PRIVATE_KEY = l726162738732732832932
 Working RPC endpoint can be found [here](https://docs.camino.network/guides/metamask-rpc-endpoints/index.html)
 To access the private key refer to the next step
 
-## Retriving your Camino Wallet private key
+## 🛂 Retriving your Camino Wallet private key
 
 Go to [Camino Wallet](https://suite.camino.network)
 
@@ -29,7 +29,7 @@ Click on View Private Key
 > ### ⚠️ Warning: Never share this private key with anyone! knowing this key presumes having full control over your wallet
 
 
-## Getting Columbus Network CAM tokens
+## 🚰 Getting Columbus Network CAM tokens
 
 Go to your [Camino Wallet](https://suite.camino.network)
 
@@ -46,4 +46,4 @@ Now we will need to transfer the tokens to C-chain. Go back to your Camino Walle
 Set Source Chain to X Chain and Destination Chain to C Chain, send Max amount.
 
 
-# [BACK TO MAINPAGE](https://github.com/chain4travel/camino-builder)
+# 📟 [BACK TO MAINPAGE](https://github.com/chain4travel/camino-builder)
