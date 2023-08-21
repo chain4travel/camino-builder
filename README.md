@@ -14,7 +14,7 @@ PRIVATE_KEY = l726162738732732832932
 Working RPC endpoint can be found [here](https://docs.camino.network/guides/metamask-rpc-endpoints/index.html)
 To access the private key refer to the next step
 
-## 🛂 Retriving your Camino Wallet private key
+## 🛂 Retrieving your Camino Wallet private key
 
 Go to [Camino Wallet](https://suite.camino.network)
 
