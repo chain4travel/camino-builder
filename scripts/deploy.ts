@@ -7,7 +7,7 @@ async function main() {
     const Token = await ethers.getContractFactory("TestToken");
     // Tokens use denomination in decimals, by default it is 18 (e.g. input of 1 * 10 ** 18 = 1 token)
     // ethers.utils.parseEther is basically adding 18 decimals to the number you input.
-    const token = await Token.deploy(ethers.utils.parseEther("3"));
+    const token = await Token.deploy(ethers.utils.parseEther("3")); // 3 * 10 ** 18
 
     await token.deployed();
     
