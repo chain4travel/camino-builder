@@ -25,3 +25,4 @@ contract TestToken is ERC20, AccessControl {
         _burn(from, amount);
     }
 }
+
