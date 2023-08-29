@@ -1,8 +1,8 @@
 // SPDX-License-Identifier: GPL-3.0
 pragma solidity ^0.8.9;
 
-import "../interfaces/IERC20.sol";
-import "../interfaces/IAdmin.sol";
+import "./interfaces/IERC20.sol";
+import "./interfaces/IAdmin.sol";
 
 contract Staking {
     address constant CAMINO_ADMIN = 0x010000000000000000000000000000000000000a;
