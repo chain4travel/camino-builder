@@ -12,7 +12,7 @@ contract NFT721 is ERC721, AccessControl, Ownable {
     
     mapping(uint256 => string) private _URIs;
 
-    constructor() ERC721("PeculiarDonkeys", "PDS") {
+    constructor() ERC721("TestCollection", "TCL") {
         // needed to allign with ids (ids start with 1, while tokenCounter is 0). Further on Counters library will be used instead.
         tokenCounter = 1;
         // AccessControl library function. Grants a role to the deployer of the contract. 
