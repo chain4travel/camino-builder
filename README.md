@@ -5,6 +5,12 @@
 
 ### Step 1
 
+> Clone the repo 
+
+```
+git clone -b token https://github.com/chain4travel/camino-builder.git
+```
+
 > 🔧 In `contracts/` you will find a file `Token.sol`. Give your token a fancy name and symbol. You can also modify the initial supply that is going to be minted
 
 ![image](https://github.com/juuroudojo/images/blob/main/Image%2018.08.2023%20at%2001.03.jpeg)
