@@ -9,7 +9,7 @@ async function main() {
     // let amountMinted = await deployedToken.mint(addr, amount) as BigNumber;
 
     // console.log("You have successfully minted", amountMinted)
-    await deployedNFT.mint("0xced8ec16e2b4964a834ed996a6d85aa007858bda", 1, "sampleurl");
+    await deployedNFT.mint("0xced8ec16e2b4964a834ed996a6d85aa007858bda", 3, "https://gateway.pinata.cloud/ipfs/https://gateway.pinata.cloud/ipfs/QmWn5BUiq9iRNreeKHQt8MeXPJATBA8Vu3nFf6M4PSJxov");
 
     console.log("Success")!
 }
