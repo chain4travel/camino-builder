@@ -43,7 +43,7 @@ npx hardhat deploy --network columbus
 ### 3️⃣ Step 3
 > Go to scripts/mint.ts. Change the the address of the deployed contract, input an id and working link to a storage with a .json file with a link to an image you want to be displayed.
 
-![image]https://github.com/juuroudojo/toolsReal/blob/main/images/Image%2030.08.2023%20at%2014.37.jpeg
+![image](https://github.com/juuroudojo/toolsReal/blob/main/images/Image%2030.08.2023%20at%2014.37.jpeg)
 
 > Run the script
 ```
@@ -53,7 +53,7 @@ npx hardhat run scripts/mint.ts --network columbus
 ### 4️⃣ Step 4
 > Go to [Camino Wallet](https://suite.camino.network/wallet/home). Find collectibles. Now you can see your nft displayed in your collection.
 
-![image]https://github.com/juuroudojo/toolsReal/blob/main/images/Image%2030.08.2023%20at%2014.34.jpeg 
+![image](https://github.com/juuroudojo/toolsReal/blob/main/images/Image%2030.08.2023%20at%2014.34.jpeg) 
 
 
 
