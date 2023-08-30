@@ -13,10 +13,9 @@ npm i
 [Setting Up Your .env File](../setup/README.md#setting-up-env-file)
 
 ## 💿 Build
-
 > In 'contracts' you'll see 2 files: 'TicketNFT.sol' and 'TicketBooth'. Go to NFT and set the Name and Symbol of the ticket/event. Choose the amount of tickets to be sold.
 
-![image]()
+![image](https://github.com/juuroudojo/toolsReal/blob/main/images/Image%2030.08.2023%20at%2015.12.jpeg)
 
 > Deploy the contracts
 
@@ -35,6 +34,8 @@ npx hardhat run scripts/enter.ts --network columbus
 ```
 
 > Something is wrong, it won't run. Indeed, that is because we don't have a ticket yet. Go to scripts/mint.ts, replace "youraddress" with you c-chain address. Run the script minting the nft.
+
+![image](https://github.com/juuroudojo/toolsReal/blob/main/images/Image%2030.08.2023%20at%2015.14.jpeg)
 
 ```
 npx hardhat run scripts/mint.ts --network columbus
