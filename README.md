@@ -4,14 +4,13 @@
 
 ## 🌌 Quick setup
 ```
-git clone https://github.com/chain4travel/camino-builder.git token-gate
+git clone -b token-gate https://github.com/chain4travel/camino-builder.git
 
-cd token-gate
-git checkout token-gate
+cd camino-builder
 npm i
 ```
 
-[Set up your .env](https://github.com/chain4trav)
+[Setting Up Your .env File](../setup/README.md#setting-up-env-file)
 
 ## 💿 Build
 
