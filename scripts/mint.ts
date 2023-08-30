@@ -5,7 +5,7 @@ async function main() {
     // Creating an interactable contract variable.
     // "ContractName" is the Contract/Interface of the contract we want to call (We need to have either the full code or interface compiled)
     //  contractaddr - address of the contract to be called
-    const deployedToken = await ethers.getContractAt("TestToken", "0x3b4a1f91fa9828D7a09ba94d36ddBC6A8F2eC412")
+    const deployedToken = await ethers.getContractAt("TestToken", "0x406DC3c2Edd696c6F14aD6209E74dC582566b4b1")
     // let amountMinted = await deployedToken.mint(addr, amount) as BigNumber;
 
     // console.log("You have successfully minted", amountMinted)
