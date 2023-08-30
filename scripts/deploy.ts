@@ -15,7 +15,7 @@ async function main() {
     await booth.deployed();
 
     console.log(
-      "Token deployed to:", ticket.address
+      "Ticket deployed to:", ticket.address
     )
 
     console.log(
