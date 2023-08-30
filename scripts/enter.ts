@@ -5,7 +5,7 @@ async function main() {
     // Creating an interactable contract variable.
     // "ContractName" is the Contract/Interface of the contract we want to call (We need to have either the full code or interface compiled)
     //  contractaddr - address of the contract to be called
-    const kyc = await ethers.getContractAt("KYCTest", "0x49500cBaEA9c97717373718c5a5e2170F0Dad34f")
+    const kyc = await ethers.getContractAt("KYCTest", "0x4CA4154FEBF2f7c9B85130819617AF394c77CbB3")
     await kyc.getIn();
 
     console.log("Success");
