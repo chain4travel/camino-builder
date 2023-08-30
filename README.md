@@ -41,7 +41,7 @@ Go to [Camino Discord](https://discord.gg/camino)
 
 In any of the text channels type /faucet and use the suggested command by entering the address you just copied and amount you want (You are limited to 25 a day). Wait for the transaction to go through.
 
-![image](https://github.com/juuroudojo/toolsReal/blob/main/images/Image%2030.08.2023%20at%2014.06.jpeg)
+![image]https://github.com/juuroudojo/toolsReal/blob/main/images/Image%2030.08.2023%20at%2014.06.jpeg
 
 Now we will need to transfer the tokens to C-chain. Go back to your Camino Wallet. Navigate to Cross Chain.
 
