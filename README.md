@@ -14,9 +14,9 @@
 ## Contents
 
 - [Requirements](#requirements)
+- [Deployed contracts](#deployed-interactable-contracts)
 - [Start Building](#start-building)
-- [Take on the challenges](#take-one-the-challenges)
-- [Contributing to Camino Builder](#contributing-to-camino-builder)
+- [Contact Us](#contact-us)
 
 ## Requirements
 
@@ -39,10 +39,9 @@ To run and interact with these projects, you will need:
 ## 📜 Start Building
  - 🍋  [Create your first NFT](https://github.com/chain4travel/camino-builder/tree/nft)
  - 🎫  [Make a token-gate access NFT](https://github.com/chain4travel/camino-builder/tree/token-gate)
- - 💸  [Write your own minting logic](https://github.com/chain4travel/camino-builder/tree/mint)
+ - 💸  [Create a KYC-compliant contract](https://github.com/chain4travel/camino-builder/tree/kyc)
  - 💎  [Deploy a token](https://github.com/chain4travel/camino-builder/tree/token)
  - 💵  [Build a staking smart contract](https://github.com/chain4travel/camino-builder/tree/staking)
- - 📊  [Build a Liquidity Pool](https://github.com/chain4travel/camino-builder/tree/liquidity-pool)
 
  ## 📼 Interact with the Contracts
  - 🐳  [Mint tokens](https://github.com/chain4travel/camino-builder/tree/mint-tokens)
