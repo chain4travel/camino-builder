@@ -42,14 +42,6 @@ To run and interact with these projects, you will need:
  - 💸  [Create a KYC-compliant contract](https://github.com/chain4travel/camino-builder/tree/kyc)
  - 💎  [Deploy a token](https://github.com/chain4travel/camino-builder/tree/token)
  - 💵  [Build a staking smart contract](https://github.com/chain4travel/camino-builder/tree/staking)
-
- ## 📼 Interact with the Contracts
- - 🐳  [Mint tokens](https://github.com/chain4travel/camino-builder/tree/mint-tokens)
- - 🐠  [Mint an NFT ticket](https://github.com/chain4travel/camino-builder/tree/mint-nft)
- - 🐢  [Stake your tokens](https://github.com/chain4travel/camino-builder/tree/stake-tokens)
- - 🐙  [Insure your ticket](https://github.com/chain4travel/camino-builder/tree/ensure-ticket)
-
-## List of deployed smart contracts
  
 
 ## Contact Us
