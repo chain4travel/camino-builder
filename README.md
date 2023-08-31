@@ -46,7 +46,7 @@ To run and interact with these projects, you will need:
 
 ## Contact Us
 
-We are always happy to help you learn. If you want some additional support or want to contribute reach out to us on [Discord](discord.gg).
+We are always happy to help you learn. If you want some additional support or want to contribute reach out to us on [Discord](https://discord.gg/camino).
   
 
 
