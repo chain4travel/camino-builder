@@ -5,10 +5,10 @@
 ## 🌌 Quickstart
 
 ```
-git clone -b nft https://github.com/chain4travel/camino-builder.git
+git clone https://github.com/chain4travel/camino-builder.git
 
-cd camin-builder
-git checkout camino-builder
+cd camino-builder
+cd nft
 npm i
 ```
 

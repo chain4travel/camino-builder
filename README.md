@@ -40,7 +40,7 @@ To run and interact with these projects, you will need:
  - 🍋  [Create your first NFT](https://github.com/chain4travel/camino-builder/tree/nft)
  - 🎫  [Make a token-gate access NFT](https://github.com/chain4travel/camino-builder/tree/token-gate)
  - 💸  [Create a KYC-compliant contract](https://github.com/chain4travel/camino-builder/tree/kyc)
- - 💎  [Deploy a token](https://github.com/chain4travel/camino-builder/tree/token)
+ - 💎  [Deploy a token](https://github.com/chain4travel/camino-builder/tree/c4t/token)
  - 💵  [Build a staking smart contract](https://github.com/chain4travel/camino-builder/tree/staking)
  
 
