@@ -5,14 +5,14 @@
 ## 🌌 Quickstart
 
 ```
-git clone -b nft https://github.com/chain4travel/camino-builder.git
+git clone https://github.com/chain4travel/camino-builder.git
 
-cd camin-builder
-git checkout camino-builder
+cd camino-builder
+cd kyc
 npm i
 ```
 
-[Setting Up .env File](../setup/README.md#setting-up-env-file)
+[Setting Up .env File](./setup/README.md#setting-up-env-file)
 
 ## 🌳 Build
 
