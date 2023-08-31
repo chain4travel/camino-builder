@@ -27,7 +27,7 @@ To run and interact with these projects, you will need:
 - [Node.js](https://nodejs.org/en/download/) (version 14.x or higher)
 - [npm](https://www.npmjs.com/get-npm) (usually bundled with Node.js)
 - [Hardhat](https://hardhat.org/getting-started/#overview) development environment
-- [Camino Wallet](https://wallet.camino.foundation/)
+- [Camino Wallet](https://suite.camino.network/login/) (KYC-Verified)
 
 ## 🌌 Deployed Interactable Contracts:
 - ERC20 Token (Freemint) - 0x33379Cfc30733E2D7E7acB39a0651D84738E600d
