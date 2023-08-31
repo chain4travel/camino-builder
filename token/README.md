@@ -1,6 +1,6 @@
 # 💎 Deploy your own token on Columbus network
 
-## 🏁 [Prepare the environment](https://github.com/chain4travel/camino-builder/README.MD#Quickstart)
+## 🏁 [Prepare the environment](https://github.com/chain4travel/camino-builder/setup)
 
 
 ### Step 1
