@@ -25,8 +25,6 @@ contract Staking {
     uint256 public rewardAmount;
     // counter of all the rewards allocated to all participants
     uint256 public totalRewardsAllocated;
-    uint256 public constant MIN_TIME = 7 days;
-    uint256 public constant DAILY_PCT_REWARD = 50; // 2 decimals 100 = 1%
     uint256 public constant MIN_STAKING_AMOUNT = 10 * 10**18;
 
     // No access control mechanisms are implemented, thus all "owner" interactions or maintenance after
@@ -89,7 +87,7 @@ contract Staking {
         require(block.timestamp >= endTime, "Staking period not yet ended");
         require(stakedBalances[staker] > 0, "No staked tokens");
 
-        uint256 rewardsEarned = stakedBalances[staker] * DAILY_PCT_REWARD / 10000 / 1 days;
+        uint256 rewardsEarned = stakedBalances[staker] * dailyPctReward / 10000 / 1 days;
 
         return rewardsEarned;
     }

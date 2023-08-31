@@ -1,4 +1,4 @@
-# Build a full-fledged Staking platform
+# Build a full-fledged Staking Platform
 
 ### 🏁 Prepare the environment
 
@@ -16,29 +16,25 @@ npm i
 
 ## Step 1
 
-> 🔧 Look for staking contract in /contracts. You are encouraged to inspect it and modify it. Breaking everything will only make you better eventually.
+> 🔧 Let's try something different this time. This example puts you in a real development environtment. Your main focus here is the code itself. Look for staking contract in /contracts. You are encouraged to inspect it and modify it. The contract is built in a way that captures the idea of what the platform should work like, but has some inconstitencies. You'll need to play around with it. Some things need need to be changed, some added, some gotten rid of. You are an artist and this is your canvas. Feel free to break everything and build again, cause the best way to learn.
+You can find a detailed inline documentation describing each component of the contract, this should help you figure all of it out.
 
-> Compile and Deploy the contracts.
+![image](https://github.com/juuroudojo/toolsReal/blob/main/images/Image%2031.08.2023%20at%2023.22.jpeg)
+
+> After you are done inspecting the code - try putting your skills to test. Deploy your contract to the test network.
 
 ```
 npx hardhat compile
 npx hardhat run scripts/deploy.ts --network columbus
 ```
 
-> 📎 After the contract is successfully deployed you'll see the address of your token in the terminal. Copy this addres to clipboard.
-
-
 ## Step 2
 
-> Try interacting with the staking through a script. Modify the numbers and conditions in scripts/stake.ts
+> Now that you have implemented your custom logic - write your own script using `scripts/sample.ts` as a guide. If your setup is correct - you should be able to check if your platform works as intended.
 
-```
-npx hardhat run scripts/stake.ts
-```
+![image](https://github.com/juuroudojo/toolsReal/blob/main/images/Image%2031.08.2023%20at%2023.41.jpeg)
 
-## Step 3
 
-> Now try calling the same script, but using a wallet without KYC-verification. You can use any wallet, just make sure it has some CAM in it. The platform will revert the call and inform the user that he needs to be KYC-verified.
 
 
 ## Explore other challenges
