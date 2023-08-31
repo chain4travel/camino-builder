@@ -12,7 +12,7 @@ cd kyc
 npm i
 ```
 
-[Setting Up .env File](./setup/README.md#setting-up-env-file)
+[Setting Up .env File](../setup/README.md#setting-up-env-file)
 
 ## 🌳 Build
 
