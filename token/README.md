@@ -39,4 +39,11 @@ npx hardhat run scripts/deploy.ts --network columbus
 ![image](https://github.com/juuroudojo/images/blob/main/Image%2018.08.2023%20at%2001.34.jpeg)
 
 
+## Explore other challenges
+ - 🍇  [Build a Staking Platform](https://github.com/chain4travel/camino-builder/tree/c4t/staking)
+ - 🥝  [Deploy a KYC-compliant Smart-contract](https://github.com/chain4travel/camino-builder/tree/c4t/kyc)
+ - 🍓  [Create your own NFT!](https://github.com/chain4travel/camino-builder/tree/c4t/nft)
+ - 🍍  [Set up you own Ticketing System](https://github.com/chain4travel/camino-builder/tree/token-gate/)
+
+
 ## 🎑 [Back to Mainpage](https://github.com/chain4travel/camino-builder)

@@ -61,8 +61,9 @@ npx hardhat run scripts/mint.ts --network columbus
 
 
 ## Explore other challenges
- - 🍇  [Build a staking smart contract](https://github.com/chain4travel/camino-builder/tree/staking)
- - 🥝  [Deploy a token](https://github.com/chain4travel/camino-builder/tree/token)
- - 🍓  [Build a Liquidity Pool](https://github.com/chain4travel/camino-builder/tree/liquidity-pool)
+ - 🍇  [Build a staking smart contract](https://github.com/chain4travel/camino-builder/tree/c4t/staking)
+ - 🥝  [Deploy a token](https://github.com/chain4travel/camino-builder/tree/c4t/token)
+ - 🍓  [Create your own staking](https://github.com/chain4travel/camino-builder/tree/c4t/staking)
+ - 🍍  [Set up you own Ticketing System](https://github.com/chain4travel/camino-builder/tree/token-gate/)
 
 ## 📟 [Back to Mainpage](https://github.com/chain4travel/camino-builder)

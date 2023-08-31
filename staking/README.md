@@ -41,4 +41,11 @@ npx hardhat run scripts/stake.ts
 > Now try calling the same script, but using a wallet without KYC-verification. You can use any wallet, just make sure it has some CAM in it. The platform will revert the call and inform the user that he needs to be KYC-verified.
 
 
+## Explore other challenges
+ - 🍇  [Build a KYC-compliant contract](https://github.com/chain4travel/camino-builder/tree/c4t/kyc)
+ - 🥝  [Deploy a token](https://github.com/chain4travel/camino-builder/tree/c4t/token)
+ - 🍓  [Create your own NFT!](https://github.com/chain4travel/camino-builder/tree/c4t/nft)
+ - 🍍  [Set up you own Ticketing System](https://github.com/chain4travel/camino-builder/tree/token-gate/)
+
+
 ## 🎑 [Back to Mainpage](https://github.com/chain4travel/camino-builder)
