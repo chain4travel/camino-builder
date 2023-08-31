@@ -16,6 +16,8 @@
 - [Requirements](#requirements)
 - [Deployed contracts](#deployed-interactable-contracts)
 - [Start Building](#start-building)
+- [Testing](#testing)
+- [Learn More](#learn-more)
 - [Contact Us](#contact-us)
 
 ## Requirements
@@ -42,7 +44,18 @@ To run and interact with these projects, you will need:
  - 💸  [Create a KYC-compliant contract](https://github.com/chain4travel/camino-builder/tree/c4t/kyc)
  - 💎  [Deploy a token](https://github.com/chain4travel/camino-builder/tree/c4t/token)
  - 💵  [Build a staking smart contract](https://github.com/chain4travel/camino-builder/tree/c4t/staking)
- 
+
+## 🔌 Testing
+- [Intro to Tests](https://github.com/chain4travel/camino-builder/tree/c4t/testing/intro)
+- [Structure of tests](https://github.com/chain4travel/camino-builder/tree/c4t/testing/structure)
+- [Testing Tools](https://github.com/chain4travel/camino-builder/tree/c4t/testing/tools)
+- [Forking a Network](https://github.com/chain4travel/camino-builder/tree/c4t/testing/fork)
+
+
+## Learn More
+- [Solidity Documentation](https://docs.soliditylang.org/en/develop/)
+- [Camino Documentation](https://docs.camino.network/)
+- [Remix IDE](https://remix.ethereum.org/)
 
 ## Contact Us
 

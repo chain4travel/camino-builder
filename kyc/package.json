@@ -1,5 +1,5 @@
 {
-  "name": "token-mint",
+  "name": "kyc",
   "devDependencies": {
     "@nomiclabs/hardhat-ethers": "^2.2.1",
     "@nomiclabs/hardhat-etherscan": "^3.1.0",
