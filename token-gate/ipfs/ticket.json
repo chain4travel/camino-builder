@@ -1,0 +1,12 @@
+{
+    "name": "Ticket to some good place",
+    "description": "Take your friends with you",
+    "image": "https://gateway.pinata.cloud/ipfs/QmZ1XMnKgV2BfmsdHyAyQuUJgRhe7Vq8Qb21ZcMfXgTPBd",
+    "attributes": [
+      {
+        "display_type" : "number",
+        "trait_type": "Ticket plan",
+        "value": "3"
+      }
+    ]
+  }
