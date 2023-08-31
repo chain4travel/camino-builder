@@ -1,6 +1,6 @@
 #  🌔 KYC-verification
 
-> In order to deploy any contract to either Columbus or Camino network you need to have you wallet verified. But contracts you deploy can be called by anyone. Sometimes, you require some additional security, and it would be useful to restric the calls to be only executable by KYC-verified wallets. Here's how you can do that.
+> In order to deploy any contract to either Columbus or Camino network you need to have your wallet verified. But contracts you deploy can be called by anyone. Sometimes, you require some additional security, and it would be useful to restrict the calls to be only executable by KYC-verified wallets. Here's how you can do that.
 
 ## 🌌 Quickstart
 
