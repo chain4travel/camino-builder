@@ -3,47 +3,45 @@
 ## 🏁 [Prepare the environment](https://github.com/chain4travel/camino-builder/setup)
 
 
-### Step 1
+## Step 1
 
-> Clone the repo 
+> Clone the repo and install dependencies
 
 ```
 git clone https://github.com/chain4travel/camino-builder.git
+cd testing
+cd intro
+npm i
 ```
 
-> 🔧 In `contracts/` you will find a file `Token.sol`. Give your token a fancy name and symbol. You can also modify the initial supply that is going to be minted
+> 🔧 In `contracts/` we have a `Storage.sol`. A basic smart contract, which allows you to store and retrieve some data. This contract will help us make our first steps into the world of testing.
 
-![image](https://github.com/juuroudojo/images/blob/main/Image%2018.08.2023%20at%2001.03.jpeg)
+![image](https://github.com/juuroudojo/toolsReal/blob/main/images/Image%2004.09.2023%20at%2016.37.jpeg)
 
-> Compile and Deploy the contract.
+> Test files are located at `test/test.ts`. Let's inspect our `test.ts`. We have some useful testing tools at the top. You can learn more about them in Educational Materials. 
+
+![image](https://github.com/juuroudojo/toolsReal/blob/main/images/Image%2004.09.2023%20at%2016.41.jpeg)
+
+## Step 2
+> Let's first try to run the tests. Compile our contracts and run tests scripts
 
 ```
 npx hardhat compile
-npx hardhat run scripts/deploy.ts --network columbus
+npx hardhat test
 ```
 
-> 📎 After the contract is successfully deployed you'll see the address of your token in the terminal. Copy this addres to clipboard.
+> You'll see an output looking something like this
 
-![image](https://github.com/juuroudojo/images/blob/main/Image%2018.08.2023%20at%2001.16.jpeg)
+![image](https://github.com/juuroudojo/toolsReal/blob/main/images/Image%2004.09.2023%20at%2016.58.jpeg)
 
-## Step 2
+> The basic structure comes down to set up done in `before()` and `beforeEach()`, and test cases with keywords `it()`. `before()` and `beforeEach()` pattern allows us to have isolated test cases. Basically, before each `it()` test clause, we redeploy our contract, so that the actions in the previous test case don't influence the state of the current one. In order to prove it, let's look at our test cases. In the first test case called `"should allow to store numbers"` we call `get()` before and after storing a new value there. We can see that at the end of the test case, the value is set to `42`. But when we call `get()` again in the next test case (`"should allow other users to store numbers"`) - we see that it is set to 0, which is the value that we had before the actions that happened in first test case.
 
-> Go to [Camino Wallet](https://suite.camino.network/wallet). At the upper right switch the network to Columbus. Open homepage and click on Add Token. Paste the address from your terminal. If everything is correct you will see a popup window previewing name, symbol and decimals of your token (18 if you haven't modified the code).
-
-![image](https://github.com/juuroudojo/images/blob/main/Image%2018.08.2023%20at%2001.21.jpeg)
-
-![image](https://github.com/juuroudojo/images/blob/main/Image%2018.08.2023%20at%2001.29.jpeg)
-
-> ♥️ Congrats! Your token is live. You should now be able to see your balance of your new token in the Assets menu.
-
-![image](https://github.com/juuroudojo/images/blob/main/Image%2018.08.2023%20at%2001.34.jpeg)
+![image](https://github.com/juuroudojo/toolsReal/blob/main/images/Image%2004.09.2023%20at%2016.51.jpeg)
 
 
-## Explore other challenges
- - 🍇  [Build a Staking Platform](https://github.com/chain4travel/camino-builder/tree/c4t/staking)
- - 🥝  [Deploy a KYC-compliant Smart-contract](https://github.com/chain4travel/camino-builder/tree/c4t/kyc)
- - 🍓  [Create your own NFT!](https://github.com/chain4travel/camino-builder/tree/c4t/nft)
- - 🍍  [Set up you own Ticketing System](https://github.com/chain4travel/camino-builder/tree/token-gate/)
+## Keep Learning about Tests
+- [Testing Structure](https://github.com/chain4travel/camino-builder/tree/c4t/testing/structure)
+- [Forking a Network](https://github.com/chain4travel/camino-builder/tree/c4t/testing/fork)
 
 
 ## 🎑 [Back to Mainpage](https://github.com/chain4travel/camino-builder)
