@@ -24,7 +24,7 @@ cd random
 
 > Smart contracts are deterministic, which makes it tough when we need something to be unpredictable or hidden. In this contract we have a secret number, and a function `entry()` which user has to call to play the game. If a pseudo-random value, which is based on the block.timestamp of the call matches `secretNumber` user takes the prize pool.
 
-![image](https://github.com/juuroudojo/images/blob/main/Image%2018.08.2023%20at%2001.16.jpeg)
+![image](https://github.com/juuroudojo/toolsReal/blob/main/images/Image%2007.09.2023%20at%2000.40.jpeg)
 
 ## 🔋 How to play
 
