@@ -10,6 +10,7 @@ contract KYCTest {
 
     function getIn() public {
         require(IAdmin(CAMINO_ADMIN).getKycState(msg.sender) == 1, "KYC not approved");
+        
         hasEntered[msg.sender] = true;
     }
 }

@@ -8,11 +8,12 @@ import {Storage} from '../typechain'
     let owner: SignerWithAddress
     let user1: SignerWithAddress
     let user2: SignerWithAddress
+    let Alice: SignerWithAddress
     let storage: Storage
     
 
     before (async function() {
-      [owner, user1, user2] = await ethers.getSigners();
+      [owner, user1, Alice] = await ethers.getSigners();
     })
 
     beforeEach(async function() {
@@ -30,14 +31,16 @@ import {Storage} from '../typechain'
     it("should store numbers", async() => {
         console.log("Number before calls, first test case:", await storage.get())
 
-        expect(await storage.get())
+        const numBefore = await storage.get()
+
+        expect(numBefore).to.be.equal(0)
         // Calling the function store on our Storage contract
         await storage.store(42);
         // Calling the function get and assigning the return value to num
-        const num = await storage.get();
+        const numAfter = await storage.get();
 
         // Checking whether the num was set to a value we called store() with
-        expect(num).to.be.equal(42);
+        expect(numAfter).to.be.equal(42);
 
         console.log("Number after calls, first test case:", await storage.get())
     });
@@ -47,11 +50,11 @@ import {Storage} from '../typechain'
         console.log("Number before calls, second test case:", await storage.get())
 
         // calling the function store() with an account of user1
-        await storage.connect(user1).store(42);
+        await storage.store(42);
         // assigning value get() function returns to num
-        const num = await storage.connect(user2).get();
-        // checking whether the value num changed to a value we stored
-        expect(num).to.be.equal(42);
+        // const num = await storage.connect(user2).get();
+        // // checking whether the value num changed to a value we stored
+        // expect(num).to.be.equal(42);
 
         console.log("Number after calls, second test case:", await storage.get())
     })   

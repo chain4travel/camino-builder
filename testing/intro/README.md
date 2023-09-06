@@ -3,7 +3,7 @@
 ## 🏁 [Prepare the environment](https://github.com/chain4travel/camino-builder/setup)
 
 
-## Step 1
+## 1️⃣ Step 1
 
 > Clone the repo and install dependencies
 
@@ -22,7 +22,7 @@ npm i
 
 ![image](https://github.com/juuroudojo/toolsReal/blob/main/images/Image%2004.09.2023%20at%2016.41.jpeg)
 
-## Step 2
+## 2️⃣ Step 2
 > Let's first try to run the tests. Compile our contracts and run tests scripts
 
 ```

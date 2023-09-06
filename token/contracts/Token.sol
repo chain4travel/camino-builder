@@ -9,7 +9,7 @@ contract TestToken is ERC20, AccessControl {
     address public owner;
 
 
-    constructor(uint256 initialSupply) ERC20("TokenY", "TKY") {
+    constructor(uint256 initialSupply) ERC20("Bippo", "BPP") {
         _setupRole(DEFAULT_ADMIN_ROLE, msg.sender);
         _mint(msg.sender, initialSupply);
 
@@ -17,7 +17,7 @@ contract TestToken is ERC20, AccessControl {
     }
 
     function mint(address to, uint256 amount) external onlyRole(DEFAULT_ADMIN_ROLE) {
-        require(msg.sender == owner, "Access denied!");
+        // require(msg.sender == owner, "Access denied!");
         _mint(to, amount);
     }
 

@@ -4,9 +4,10 @@
 
 ## 🌌 Quick setup
 ```
-git clone -b token-gate https://github.com/chain4travel/camino-builder.git
+git clone https://github.com/chain4travel/camino-builder.git
 
 cd camino-builder
+cd token-gate
 npm i
 ```
 

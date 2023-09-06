@@ -1,5 +1,4 @@
-import {ethers, upgrades} from "hardhat"
-import { Test } from "mocha";
+import {ethers} from "hardhat"
 
 async function main() {
     // Creating an instance of Contract Factory. Think of it as making a blueprint. In line 10

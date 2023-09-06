@@ -21,7 +21,7 @@ async function main() {
     )
 
     console.log(
-      "Staking deployed to", staking.address
+      "Staking deployed to",
     )
 }
 

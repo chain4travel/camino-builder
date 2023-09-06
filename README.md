@@ -31,13 +31,6 @@ To run and interact with these projects, you will need:
 - [Hardhat](https://hardhat.org/getting-started/#overview) development environment
 - [Camino Wallet](https://suite.camino.network/login/) (KYC-Verified)
 
-## 🌌 Deployed Interactable Contracts:
-- ERC20 Token (Freemint) - 0x33379Cfc30733E2D7E7acB39a0651D84738E600d
-- NFT721 (Freemint) - 0xBd71045Bec720fa5BD349483C3e9148596BfF3b4
-- Staking Platform - 0x7b10388ba821f1d88f8C25A749fA162f8f42B6C6
-- Liquidity Pool - 0xf7f0EF5907965b87DDE77CA86721657E54Edd377
-
-
 ## 📜 Start Building
  - 🍋  [Create your first NFT](https://github.com/chain4travel/camino-builder/tree/c4t/nft)
  - 🎫  [Make a token-gate access NFT](https://github.com/chain4travel/camino-builder/tree/c4t/token-gate)
@@ -48,14 +41,21 @@ To run and interact with these projects, you will need:
 ## 🔌 Testing
 - [Intro to Tests](https://github.com/chain4travel/camino-builder/tree/c4t/testing/intro)
 - [Structure of tests](https://github.com/chain4travel/camino-builder/tree/c4t/testing/structure)
-- [Testing Tools](https://github.com/chain4travel/camino-builder/tree/c4t/testing/tools)
-- [Forking a Network](https://github.com/chain4travel/camino-builder/tree/c4t/testing/fork)
+
+## Take On Challenges
+- [Pseudo-randomness Exploit](https://github.com/chain4travel/camino-builder/tree/c4t/challenges/random)
+- [Reentrancy](https://github.com/chain4travel/camino-builder/tree/c4t/challenges/reentrancy)
 
 
 ## Learn More
 - [Solidity Documentation](https://docs.soliditylang.org/en/develop/)
 - [Camino Documentation](https://docs.camino.network/)
 - [Remix IDE](https://remix.ethereum.org/)
+- [Hardhat Documentation](https://hardhat.org/docs)
+- [Ehers.js](https://docs.ethers.org/)
+- [Waffle/Chai Matchers Documentation](https://ethereum-waffle.readthedocs.io/en/latest/matchers.html)
+- [Mocha](https://mochajs.org/)
+- [Web3.js](https://web3js.readthedocs.io/en/v1.10.0/)
 
 ## Contact Us
 

@@ -1,20 +1,18 @@
-# Build a full-fledged Staking Platform
+# 💶 Build a full-fledged Staking Platform
 
 ### 🏁 Prepare the environment
 
 ```
-git clone https://github.com/chain4travel/camino-builder.git staking
+git clone https://github.com/chain4travel/camino-builder.git
 
-cd token-gate
-git checkout token-gate
+cd camino-builder
+cd staking
 npm i
 ```
 
-[Set up your .env](setup/README.md#setting-up-env-file)
+## 🌳 Build
 
-> For this example you'll need to have a KYC-verified wallet. Refer [here](https://docs.camino.network/guides/kyc/index.html) to find out how to do it
-
-## Step 1
+### 1️⃣ Step 1
 
 > 🔧 Let's try something different this time. This example puts you in a real development environtment. Your main focus here is the code itself. Look for staking contract in /contracts. You are encouraged to inspect it and modify it. The contract is built in a way that captures the idea of what the platform should work like, but has some inconstitencies. You'll need to play around with it. Some things need need to be changed, some added, some gotten rid of. You are an artist and this is your canvas. Feel free to break everything and build again, cause the best way to learn.
 You can find a detailed inline documentation describing each component of the contract, this should help you figure all of it out.
@@ -28,7 +26,7 @@ npx hardhat compile
 npx hardhat run scripts/deploy.ts --network columbus
 ```
 
-## Step 2
+### 2️⃣ Step 2
 
 > Now that you have implemented your custom logic - write your own script using `scripts/sample.ts` as a guide. If your setup is correct - you should be able to check if your platform works as intended.
 

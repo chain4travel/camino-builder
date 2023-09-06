@@ -8,7 +8,10 @@
 > Clone the repo 
 
 ```
-git clone -b token https://github.com/chain4travel/camino-builder.git
+git clone https://github.com/chain4travel/camino-builder.git
+cd camino-builder
+cd token
+npm i
 ```
 
 > 🔧 In `contracts/` you will find a file `Token.sol`. Give your token a fancy name and symbol. You can also modify the initial supply that is going to be minted
