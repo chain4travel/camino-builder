@@ -31,6 +31,8 @@ To run and interact with these projects, you will need:
 - [Hardhat](https://hardhat.org/getting-started/#overview) development environment
 - [Camino Wallet](https://suite.camino.network/login/) (KYC-Verified)
 
+> 🚩 NOTE! After cloning the repo - the only setup you need to perform is (setting up .env)[https://github.com/chain4travel/camino-builder/setup] in each subdir! Hardhat won't be able to pull from .env that is located in the root directory!
+
 ## 📜 Start Building
  - 🍋  [Create your first NFT](https://github.com/chain4travel/camino-builder/tree/c4t/nft)
  - 🎫  [Make a token-gate access NFT](https://github.com/chain4travel/camino-builder/tree/c4t/token-gate)
@@ -42,12 +44,12 @@ To run and interact with these projects, you will need:
 - [Intro to Tests](https://github.com/chain4travel/camino-builder/tree/c4t/testing/intro)
 - [Structure of tests](https://github.com/chain4travel/camino-builder/tree/c4t/testing/structure)
 
-## Take On Challenges
+## 🔐 Take On Challenges
 - [Pseudo-randomness Exploit](https://github.com/chain4travel/camino-builder/tree/c4t/challenges/random)
 - [Reentrancy](https://github.com/chain4travel/camino-builder/tree/c4t/challenges/reentrancy)
 
 
-## Learn More
+## 🔍 Learn More
 - [Solidity Documentation](https://docs.soliditylang.org/en/develop/)
 - [Camino Documentation](https://docs.camino.network/)
 - [Remix IDE](https://remix.ethereum.org/)

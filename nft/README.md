@@ -25,7 +25,7 @@ npm i
 > Time to deploy our collection to Columbus testnet! 
 
 ```
-npx hardhat deploy --network columbus
+npx hardhat run scripts/deploy.ts --network columbus
 ```
 
 > If the contract had been deployed - you'll see the address of your nft in the terminal, we will need it for the next step.
