@@ -39,7 +39,7 @@ npx hardhat run scripts/deploy.ts --network columbus
  - 🍇  [Build a KYC-compliant contract](https://github.com/chain4travel/camino-builder/tree/c4t/kyc)
  - 🥝  [Deploy a token](https://github.com/chain4travel/camino-builder/tree/c4t/token)
  - 🍓  [Create your own NFT!](https://github.com/chain4travel/camino-builder/tree/c4t/nft)
- - 🍍  [Set up you own Ticketing System](https://github.com/chain4travel/camino-builder/tree/token-gate/)
+ - 🍍  [Set up you own Ticketing System](https://github.com/chain4travel/camino-builder/tree/c4t/token-gate/)
 
 
 ## 🎑 [Back to Mainpage](https://github.com/chain4travel/camino-builder)

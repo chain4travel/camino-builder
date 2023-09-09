@@ -41,12 +41,12 @@ To run and interact with these projects, you will need:
  - 💵  [Build a staking smart contract](https://github.com/chain4travel/camino-builder/tree/c4t/staking)
 
 ## 🔌 Testing
-- [Intro to Tests](https://github.com/chain4travel/camino-builder/tree/c4t/testing/intro)
-- [Structure of tests](https://github.com/chain4travel/camino-builder/tree/c4t/testing/structure)
+- 1️⃣ [Intro to Tests](https://github.com/chain4travel/camino-builder/tree/c4t/testing/intro)
+- 2️⃣ [Structure of tests](https://github.com/chain4travel/camino-builder/tree/c4t/testing/structure)
 
 ## 🔐 Take On Challenges
-- [Pseudo-randomness Exploit](https://github.com/chain4travel/camino-builder/tree/c4t/challenges/random)
-- [Reentrancy](https://github.com/chain4travel/camino-builder/tree/c4t/challenges/reentrancy)
+- 🎲 [Pseudo-randomness Exploit](https://github.com/chain4travel/camino-builder/tree/c4t/challenges/random)
+- 🔂 [Reentrancy](https://github.com/chain4travel/camino-builder/tree/c4t/challenges/reentrancy)
 
 
 ## 🔍 Learn More
