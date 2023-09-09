@@ -3,7 +3,7 @@
 
 ## 🛅 Setting Up .env File
 
-In the repository you cloned create a file with a name .env
+In the subdire you are working with create a file with a name .env. The one you may see in root directory is just an example for format, information  stored in there can not be accessed by subdirectories!
 
 .env file should look like this:
 
@@ -24,7 +24,7 @@ Navigate to Manage Keys section
 
 Click on View Static Key. Grab the top one
 
-![image]https://github.com/juuroudojo/toolsReal/blob/main/images/Image%2030.08.2023%20at%2014.03.jpeg
+![image](https://github.com/juuroudojo/toolsReal/blob/main/images/Image%2030.08.2023%20at%2014.03.jpeg)
 
 > ### ⚠️ Warning: Never share this private key with anyone! knowing this key presumes having full control over your wallet
 
@@ -41,7 +41,7 @@ Go to [Camino Discord](https://discord.gg/camino)
 
 In any of the text channels type /faucet and use the suggested command by entering the address you just copied and amount you want (You are limited to 25 a day). Wait for the transaction to go through.
 
-![image]https://github.com/juuroudojo/toolsReal/blob/main/images/Image%2030.08.2023%20at%2014.06.jpeg
+![image](https://github.com/juuroudojo/toolsReal/blob/main/images/Image%2030.08.2023%20at%2014.06.jpeg)
 
 Now we will need to transfer the tokens to C-chain. Go back to your Camino Wallet. Navigate to Cross Chain.
 
