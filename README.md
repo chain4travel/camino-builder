@@ -58,6 +58,7 @@ To run and interact with these projects, you will need:
 - [Waffle/Chai Matchers Documentation](https://ethereum-waffle.readthedocs.io/en/latest/matchers.html)
 - [Mocha](https://mochajs.org/)
 - [Web3.js](https://web3js.readthedocs.io/en/v1.10.0/)
+- Static Analysis Tools: [Mythril](https://mythril.ai/), [Slither](https://github.com/crytic/slither)
 
 ## Contact Us
 
