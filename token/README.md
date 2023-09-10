@@ -49,7 +49,7 @@ npx hardhat run scripts/deploy.ts --network columbus
 
 ![image](https://github.com/juuroudojo/images/blob/main/Image%2018.08.2023%20at%2001.34.jpeg)
 
-### Step 3
+### 3️⃣ Step 3
 
 > Right now our balance is the initial supply, we chose when deploying the token. But what if we want to have some more? We have a `mint.ts` in `scripts/` for that. In line 12 change the first argument to your address, and 2nd argument to the amount you want minted. If you want to learn more about how it works - follow the inline documentation. Run the mint script
 
@@ -66,7 +66,7 @@ npx hardhat run scripts/mint.ts --network columbus
  - 🍇  [Build a Staking Platform](https://github.com/chain4travel/camino-builder/tree/c4t/staking)
  - 🥝  [Deploy a KYC-compliant Smart-contract](https://github.com/chain4travel/camino-builder/tree/c4t/kyc)
  - 🍓  [Create your own NFT!](https://github.com/chain4travel/camino-builder/tree/c4t/nft)
- - 🍍  [Set up you own Ticketing System](https://github.com/chain4travel/camino-builder/tree/token-gate/)
+ - 🍍  [Set up you own Ticketing System](https://github.com/chain4travel/camino-builder/tree/c4t/token-gate/)
 
 
 ## 🎑 [Back to Mainpage](https://github.com/chain4travel/camino-builder)
