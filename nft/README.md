@@ -41,7 +41,11 @@ npx hardhat run scripts/deploy.ts --network columbus
 > Congrats! You can now mint, transfer and share your nfts. Check out other challenges to learn about it.
 
 ### 3️⃣ Step 3
-> Go to scripts/mint.ts. Change the the address of the deployed contract, input an id and working link to a storage with a .json file with a link to an image you want to be displayed.
+> Go to scripts/mint.ts. Change the the address of the deployed contract in line 9. Line 13: You are now calling the function mint on your deployed contract. If you go to `NFT.sol`, you'll see a function mint() there, which asks you for arguments: `address to, uint256 tokenId, string memory tokenURI` 
+
+![image](https://github.com/juuroudojo/toolsReal/blob/main/images/Image%2011.09.2023%20at%2000.27.jpeg)
+
+> Input an id and working link to a storage with a .json file with a link to an image you want to be displayed.
 
 ![image](https://github.com/juuroudojo/toolsReal/blob/main/images/Image%2030.08.2023%20at%2014.37.jpeg)
 

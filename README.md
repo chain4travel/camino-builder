@@ -31,7 +31,7 @@ To run and interact with these projects, you will need:
 - [Hardhat](https://hardhat.org/getting-started/#overview) development environment
 - [Camino Wallet](https://suite.camino.network/login/) (KYC-Verified)
 
-> 🚩 NOTE! After cloning the repo - the only setup you need to perform is [setting up .env](https://github.com/chain4travel/camino-builder/setup) in each subdir! Hardhat won't be able to pull from .env that is located in the root directory! The .env in the root directory is present to serve as an example for .env format.
+> 🚩 NOTE! After cloning the repo - the only setup you need to perform is [setting up .env](https://github.com/chain4travel/camino-builder/tree/c4t/setup) in each subdir! Hardhat won't be able to pull from .env that is located in the root directory! The .env in the root directory is present to serve as an example for .env format.
 
 ## 📜 Start Building
  - 🍋  [Create your first NFT](https://github.com/chain4travel/camino-builder/tree/c4t/nft)
