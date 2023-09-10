@@ -31,9 +31,10 @@ npm i
 ![image](https://github.com/juuroudojo/toolsReal/blob/main/images/Image%2030.08.2023%20at%2015.40.jpeg)
 
 ### 2️⃣ Step 2
-> Let's deploy out contract.
+> Let's deploy our contract.
+
 ```
-npx hardhat run scripts deployKYC.ts --network columbus
+npx hardhat run scripts/deployKYC.ts --network columbus
 ```
 
 ### 3️⃣ Step 3
@@ -41,7 +42,27 @@ npx hardhat run scripts deployKYC.ts --network columbus
 
 ![image](https://github.com/juuroudojo/toolsReal/blob/main/images/Image%2030.08.2023%20at%2015.44.jpeg)
 
-> You were able to successfull enter the contract. But if you are to go and create a new wallet and try and call this contract using it - you'll see an error message.
+> Run enter.ts script
+
+```
+npx hardhat run scripts/enter.ts --network
+```
+
+> You were able to successfully enter the contract. But if you are to go and create a new wallet and try and call this contract using it - you'll see an error message.
+
+### 4️⃣ Step 4
+
+> Now, in order to make sure the system works - let's try to call same contract but using a wallet without KYC-verification. You can either create your own new wallet or use a dummy account by this .env "5e938fed465c406a029f9652422c08cff76aca6b10e141421702a60ceca804e9". Replace the private key in .env in your kyc subdirectory with the private key of a new wallet. Run the enter script again
+
+```
+npx hardhat run scripts/enter.ts --network columbus
+```
+
+> In the terminal you will see an exception, looking something like this. 
+
+![image](https://github.com/juuroudojo/toolsReal/blob/main/images/2023-09-11%2001.44.40.jpg).
+
+> Ironically, the error proves we are doing pretty good. 💝 Congratulations again, we now have an ecosystem which functions exactly how we want it to.
 
 
 
