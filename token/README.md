@@ -13,7 +13,7 @@ cd token
 npm i
 ```
 
-> Create a .env file in token/
+> Create a .env file in `token/`
 
 [Setting Up Your .env File](../setup/README.md#setting-up-env-file)
 

@@ -12,6 +12,8 @@ cd nft
 npm i
 ```
 
+> Create a .env file in `nft/`
+
 [Setting Up .env File](../setup/README.md#setting-up-env-file)
 
 ## 🌳 Build

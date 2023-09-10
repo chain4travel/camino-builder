@@ -13,7 +13,7 @@ cd camino-builder
 cd token-gate
 npm i
 ```
-> Create a .env file in token-gate/
+> Create a .env file in `token-gate/`
 
 [Setting Up Your .env File](../setup/README.md#setting-up-env-file)
 

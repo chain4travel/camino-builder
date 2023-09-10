@@ -8,7 +8,7 @@ contract Staking {
     // address of the contract allowing for KYC-verified wallet check
     address constant CAMINO_ADMIN = 0x010000000000000000000000000000000000000a;
     // duration of the campaign
-    uint256 constant STAKINGPERIOD = 3 days;
+    uint256 constant STAKINGPERIOD = 30 minutes;
     // token used for stake and rewards
     IERC20 public token;
 

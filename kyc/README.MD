@@ -12,6 +12,8 @@ cd kyc
 npm i
 ```
 
+> Create a .env file in `kyc/`
+
 [Setting Up .env File](../setup/README.md#setting-up-env-file)
 
 ## 🌳 Build
@@ -23,7 +25,7 @@ npm i
 
 ![image](https://github.com/juuroudojo/toolsReal/blob/main/images/Image%2030.08.2023%20at%2015.32.jpeg)
 
-> This is how you restrict the access to be exclusively available to KYC-verified wallets. You need to create an object of a contract of CAMINO_ADMIN. It is deployed to Columbus at address 0x010000000000000000000000000000000000000a (refer to Camino Docs). The call returns one of 2 values:
+> This is how you restrict the access to be exclusively available to KYC-verified wallets. You need to create an object of a contract of CAMINO_ADMIN. It is deployed to Columbus at address 0x010000000000000000000000000000000000000a (refer to [Camino Docs](https://docs.camino.network/)). The call returns one of 2 values:
 0 if the address that called enter() is not verified, and 1 if it is.
 
 > In order to call CAMINO_ADMIN contract we need to let our KYCTest contract know how can the function be called. To describe this to our contract we need to write an interface located at `contracts/interfaces/IAdmin.sol`.

@@ -10,6 +10,10 @@ cd staking
 npm i
 ```
 
+> Create a .env file in `staking/`
+
+[Setting Up .env File](../setup/README.md#setting-up-env-file)
+
 ## 🌳 Build
 
 ### 1️⃣ Step 1
