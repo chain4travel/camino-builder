@@ -36,6 +36,7 @@ npx hardhat run scripts/deploy.ts --network columbus
 ![image](https://github.com/juuroudojo/toolsReal/blob/main/images/Image%2021.08.2023%20at%2012.38.jpeg)
 
 > Paste the address of the NFT and confirm.
+
 ![image](https://github.com/juuroudojo/toolsReal/blob/main/images/Image%2021.08.2023%20at%2013.43.jpeg)
 
 > Congrats! You can now mint, transfer and share your nfts. Check out other challenges to learn about it.
