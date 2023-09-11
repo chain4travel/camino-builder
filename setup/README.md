@@ -1,5 +1,11 @@
 # 🔬 Setup
 
+## Contents
+
+- [.env Set-Up](#setting-up-.env-file)
+- [Private Key](#retrieving-your-camino-wallet-private-key)
+- [Address](#retrieving-your-address)
+- [Faucet Funds](#getting-columbus-network-cam-tokens)
 
 ## 🛅 Setting Up .env File
 
