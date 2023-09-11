@@ -1,11 +1,6 @@
-# Introduction to Tests
+# 🎹 Testing Structure
 
-## 🏁 [Prepare the environment](https://github.com/chain4travel/camino-builder/setup)
-
-
-> Let's talk more about the structure of the testing. This is a lesson 2, it is recommended you first go through [Intro](https://github.com/chain4travel/camino-builder/tree/c4t/testing/intro).
-
-## Step 1
+## 🌌 Quickstart
 
 ```
 git clone https://github.com/chain4travel/camino-builder.git
@@ -13,6 +8,14 @@ cd testing
 cd structure
 npm i
 ```
+
+> Create a .env file in `testing/structure`
+
+[Setting Up .env File](../setup/README.md#setting-up-env-file)
+
+> Let's talk more about the structure of the testing. This is a lesson 2, it is recommended you first go through [Intro](https://github.com/chain4travel/camino-builder/tree/c4t/testing/intro).
+
+## 1️⃣ Step 1
 
 > We will now take a look at a test file with some additional functionality. In here we have a contract of exchange, which will allow you to swap your TokenA for TokenB. We mint the initial supply of TokenA to deployer, but delegate the minting of the TokenB to exchange. So the way to get TokenB is by giving away an equivalent amount of TokenA
 
@@ -22,7 +25,7 @@ npm i
 
 ![image](https://github.com/juuroudojo/toolsReal/blob/main/images/Image%2006.09.2023%20at%2023.48.jpeg)
 
-## Step 2
+## 2️⃣ Step 2
 > Let's first try to run the tests. Compile our contracts and run tests scripts
 
 ```
