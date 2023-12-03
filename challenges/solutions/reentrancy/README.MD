@@ -22,7 +22,7 @@ npm i
 
 ## Solution
 
-After you tried to crack this case, or if you are here to enjoy the action - check out [SOLUTION](https://github.com/chain4travel/camino-builder/challenges/solutions/reentrancy)
+After you tried to crack this case, or if you are here to enjoy the action - check out [Solution](https://github.com/chain4travel/camino-builder/challenges/solutions/)
 
 
 
