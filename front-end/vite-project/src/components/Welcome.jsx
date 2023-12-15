@@ -25,6 +25,7 @@ const Welcome = () => {
     const handleSubmit = () => {
 
     }
+    
     return (
         <div className="flex w-full justify-center items-center">
             <div className="flex mf:flex-row flex-col items-start justify-between md:p-20 py-12 px-4">
