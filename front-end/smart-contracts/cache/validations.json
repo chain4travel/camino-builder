@@ -1,0 +1,102 @@
+{
+  "version": "3.4",
+  "log": [
+    {
+      "contracts/SendCAM.sol:SendCAM": {
+        "src": "contracts/SendCAM.sol:4",
+        "version": {
+          "withMetadata": "392cec523080b1fc3cdb0f6cf5637ee04c32e92bb3c13d079994b187870f7037",
+          "withoutMetadata": "c02a1ff423f6f03b4dc89c165e525b717753a3cc29505d46b9b1259857bb83ea",
+          "linkedWithoutMetadata": "c02a1ff423f6f03b4dc89c165e525b717753a3cc29505d46b9b1259857bb83ea"
+        },
+        "inherit": [],
+        "libraries": [],
+        "methods": [
+          "transfer(address payable,string)",
+          "getAllTransactions()",
+          "getTransactionCount()"
+        ],
+        "linkReferences": [],
+        "errors": [],
+        "layout": {
+          "storage": [
+            {
+              "label": "transactionCounter",
+              "offset": 0,
+              "slot": "0",
+              "type": "t_uint256",
+              "contract": "SendCAM",
+              "src": "contracts/SendCAM.sol:5"
+            },
+            {
+              "label": "transactions",
+              "offset": 0,
+              "slot": "1",
+              "type": "t_array(t_struct(TransferStruct)14_storage)dyn_storage",
+              "contract": "SendCAM",
+              "src": "contracts/SendCAM.sol:15"
+            }
+          ],
+          "types": {
+            "t_address": {
+              "label": "address",
+              "numberOfBytes": "20"
+            },
+            "t_array(t_struct(TransferStruct)14_storage)dyn_storage": {
+              "label": "struct SendCAM.TransferStruct[]",
+              "numberOfBytes": "32"
+            },
+            "t_string_storage": {
+              "label": "string",
+              "numberOfBytes": "32"
+            },
+            "t_struct(TransferStruct)14_storage": {
+              "label": "struct SendCAM.TransferStruct",
+              "members": [
+                {
+                  "label": "sender",
+                  "type": "t_address",
+                  "offset": 0,
+                  "slot": "0"
+                },
+                {
+                  "label": "receiver",
+                  "type": "t_address",
+                  "offset": 0,
+                  "slot": "1"
+                },
+                {
+                  "label": "amount",
+                  "type": "t_uint256",
+                  "offset": 0,
+                  "slot": "2"
+                },
+                {
+                  "label": "message",
+                  "type": "t_string_storage",
+                  "offset": 0,
+                  "slot": "3"
+                },
+                {
+                  "label": "timestamp",
+                  "type": "t_uint256",
+                  "offset": 0,
+                  "slot": "4"
+                }
+              ],
+              "numberOfBytes": "160"
+            },
+            "t_uint256": {
+              "label": "uint256",
+              "numberOfBytes": "32"
+            }
+          },
+          "layoutVersion": "1.2",
+          "flat": true,
+          "namespaces": {}
+        },
+        "solcVersion": "0.8.9"
+      }
+    }
+  ]
+}

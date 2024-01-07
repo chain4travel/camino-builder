@@ -1,0 +1,41 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/Users/alloblin/Documents/norbert/CaminoFolder/builderT/camino-builder/front-end/smart-contracts/contracts/SendCAM.sol": {
+      "lastModificationDate": 1704466924156,
+      "contentHash": "35a070a64b1532e3679bbfd893ddebd8",
+      "sourceName": "contracts/SendCAM.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "storageLayout"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.9"
+      ],
+      "artifacts": [
+        "SendCAM"
+      ]
+    }
+  }
+}
