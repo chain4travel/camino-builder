@@ -8,7 +8,7 @@
 
 # 🌎 Camino Builder
 
-🏬 Learn how to deploy and work with smart contracts on Camino network. Dive into different features and techniques employed in smart contracts. This repo will walk you through all of it and teach you how to build the travel industry of the future in simple terms.
+Learn how to deploy and work with smart contracts on Camino network. Dive into different features and techniques employed in smart contracts. This repo will walk you through all of it and teach you how to build the travel industry of the future in simple terms.
 
 
 ## Contents
@@ -31,7 +31,11 @@ To run and interact with these projects, you will need:
 - [Hardhat](https://hardhat.org/getting-started/#overview) development environment
 - [Camino Wallet](https://suite.camino.network/login/) (KYC-Verified)
 
+<<<<<<< HEAD
 > 🚩 NOTE! After cloning the repo - the only setup you need to perform is (setting up .env)[https://github.com/chain4travel/camino-builder/setup] in each subdir! Hardhat won't be able to pull from .env that is located in the root directory!
+=======
+> 🚩 NOTE! After cloning the repo - the only setup you need to perform is [setting up .env](https://github.com/chain4travel/camino-builder/tree/c4t/setup) in each subdir! Hardhat won't be able to pull from .env that is located in the root directory! The .env in the root directory is present to serve as an example for .env format.
+>>>>>>> c4t
 
 ## 📜 Start Building
  - 🍋  [Create your first NFT](https://github.com/chain4travel/camino-builder/tree/c4t/nft)
@@ -41,12 +45,17 @@ To run and interact with these projects, you will need:
  - 💵  [Build a staking smart contract](https://github.com/chain4travel/camino-builder/tree/c4t/staking)
 
 ## 🔌 Testing
-- [Intro to Tests](https://github.com/chain4travel/camino-builder/tree/c4t/testing/intro)
-- [Structure of tests](https://github.com/chain4travel/camino-builder/tree/c4t/testing/structure)
+- 1️⃣ [Intro to Tests](https://github.com/chain4travel/camino-builder/tree/c4t/testing/intro)
+- 2️⃣ [Structure of tests](https://github.com/chain4travel/camino-builder/tree/c4t/testing/structure)
 
 ## 🔐 Take On Challenges
+<<<<<<< HEAD
 - [Pseudo-randomness Exploit](https://github.com/chain4travel/camino-builder/tree/c4t/challenges/random)
 - [Reentrancy](https://github.com/chain4travel/camino-builder/tree/c4t/challenges/reentrancy)
+=======
+- 🎲 [Pseudo-randomness Exploit](https://github.com/chain4travel/camino-builder/tree/c4t/challenges/random)
+- 🔂 [Reentrancy](https://github.com/chain4travel/camino-builder/tree/c4t/challenges/reentrancy)
+>>>>>>> c4t
 
 
 ## 🔍 Learn More
@@ -58,6 +67,8 @@ To run and interact with these projects, you will need:
 - [Waffle/Chai Matchers Documentation](https://ethereum-waffle.readthedocs.io/en/latest/matchers.html)
 - [Mocha](https://mochajs.org/)
 - [Web3.js](https://web3js.readthedocs.io/en/v1.10.0/)
+- Static Analysis Tools: [Mythril](https://mythril.ai/), [Slither](https://github.com/crytic/slither)
+- Prep Session 1 Diagram: [.excalidraw](https://github.com/chain4travel/camino-builder/tree/c4t/utils/ps.excalidraw), [.svg](https://github.com/chain4travel/camino-builder/tree/c4t/utils/ps1.svg)
 
 ## Contact Us
 

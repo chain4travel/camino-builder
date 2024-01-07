@@ -1,18 +1,23 @@
-# Introduction to Tests
-
-## 🏁 [Prepare the environment](https://github.com/chain4travel/camino-builder/setup)
+# 🎳 Introduction to Tests
 
 
-## 1️⃣ Step 1
+### 🌌 Setup
 
 > Clone the repo and install dependencies
 
 ```
 git clone https://github.com/chain4travel/camino-builder.git
+
 cd testing
 cd intro
 npm i
 ```
+
+> Create a .env file in `testing/intro`
+
+[Setting Up .env File](../setup/README.md#setting-up-env-file)
+
+## 1️⃣ Step 1
 
 > 🔧 In `contracts/` we have a `Storage.sol`. A basic smart contract, which allows you to store and retrieve some data. This contract will help us make our first steps into the world of testing.
 
@@ -41,7 +46,6 @@ npx hardhat test
 
 ## Keep Learning about Tests
 - [Testing Structure](https://github.com/chain4travel/camino-builder/tree/c4t/testing/structure)
-- [Forking a Network](https://github.com/chain4travel/camino-builder/tree/c4t/testing/fork)
 
 
 ## 🎑 [Back to Mainpage](https://github.com/chain4travel/camino-builder)
