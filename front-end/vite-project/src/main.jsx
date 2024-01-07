@@ -1,10 +1,13 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import App from './App.jsx'
-import './index.css'
+import React from "react";
+import ReactDOM from "react-dom";
 
-ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
+import App from "./App";
+import { SenderProvider } from "./context/SenderContext";
+import "./index.css";
+
+ReactDOM.render(
+  <SenderProvider>
     <App />
-  </React.StrictMode>,
-)
+  </SenderProvider>,
+  document.getElementById("root"),
+);

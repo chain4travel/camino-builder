@@ -59,7 +59,7 @@ To run and interact with these projects, you will need:
 - [Mocha](https://mochajs.org/)
 - [Web3.js](https://web3js.readthedocs.io/en/v1.10.0/)
 - Static Analysis Tools: [Mythril](https://mythril.ai/), [Slither](https://github.com/crytic/slither)
-- Prep Session 1 Diagram: [.excalidraw](https://github.com/chain4travel/camino-builder/tree/c4t/utils/ps.excalidraw), [.svg](https://github.com/chain4travel/camino-builder/tree/c4t/utils/ps.svg)
+- Prep Session 1 Diagram: [.excalidraw](https://github.com/chain4travel/camino-builder/tree/c4t/utils/ps.excalidraw), [.svg](https://github.com/chain4travel/camino-builder/tree/c4t/utils/ps1.svg)
 
 ## Contact Us
 
