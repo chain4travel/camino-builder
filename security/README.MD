@@ -3,7 +3,6 @@
 > Smart Contract development is a very special environement: It is very memory sensitive, your every bug and inefficiency will cost money. Branch is still very new, and even though we've heard of tons of exploits, hacks and different bad actors - new ones keep popping up. Even though Solidity as a language does consider the brittle nature of this development and thus gives us very limited tools to work with - you'll still need to be extra cautios. Below we will discuss some of the main exploit vectors, present you with some examples and preventative techniques, all so that your can build smart contracts, which are secure and reliable.
 
 
-
 ## 🔓 Reentrancy
 
 ### Context
