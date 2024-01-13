@@ -13,7 +13,7 @@ git clone https://github.com/chain4travel/camino-builder.git
 
 [Setting Up Your .env File](../setup/README.md#setting-up-env-file)
 
-## 💿 IntrO
+## IntrO
 > Here you'll find several chapters on how you integrate your smart contract with front-end and have so that you are one step closer to a complete dApp. We will use React.js and Hardhat.
 
 ## Step 1
@@ -33,14 +33,14 @@ npm run dev
 
 If you now cmd(ctrl)+click on localhost link - you'll open the app in your browser. The code for the app is located in `/vite-project` and smart contract code is a hardhat project in `/smart-contracts`.
 
-## :octocat: DEVELOP
+# :octocat: DEVELOP
 
 If you are not acquianted with front-end development you might feel lost, but don't you worry. We only need to pay attention to specific points, which can then be simplified to only do their job. 
 
 Let's walk through some of the main conecepts of smart contract integration in our dApp:
 
 
-### 💡 Connecting Users Wallet
+## 💡 Connecting Users Wallet
 
 All interactions within our dApp need to originate somewhere. Identity in smart contracts is represented by an account, which in its essence comes down to a private key. We, as developers, work with private keys directly, but it woudn't be an optimal experience for our users. That's what wallets are for. Technically wallets are just software that hold private keys and handle all interactions and integrations. Luckily for us, this software offers tools to seemlessly integrate blockchain part into our dApp.
 
@@ -52,7 +52,7 @@ This functions is where everything happens
 
 In line 95 we first check whether some wallet software is available. If that's the case, we then call `eth_requestAccounts`, which returns an array of accounts. We then grab the first one and set it as the current one.
 
-### 📝 Creating the object of a smart contract
+## 📝 Creating the object of a smart contract
 
 First thing to do when we want to interact with a contract is to a create an object of it. There are different methods, suitable for different cases, but in our scenario you will need:
 
@@ -80,7 +80,7 @@ After we have the object of the contract our path is clear and the process is pr
 await contract.function()
 ```
 
-### 🎼 Using Data from Smart Contracts
+## 🎼 Using Data from Smart Contracts
 
 All the main things happen in `SenderContext.jsx`. It makes more sense to check it out to grasp the full context, but we will still have a rough walk-through. First of all, all the functions in here are passed through the context the following way:
 

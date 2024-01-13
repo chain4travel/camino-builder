@@ -12,12 +12,6 @@ contract Attack {
         target = _target;
     }
     
-    receive() external payable {
-        if () {
-            
-        }
-    }
-
     function attack() external payable {
         require();
         target.deposit{value:}();
@@ -25,5 +19,13 @@ contract Attack {
     }
 
     function getBalance() external view returns (uint256) {
+    }
+
+    receive() external payable {
+        if () {
+            
+        } else {
+            
+        }
     }
 }

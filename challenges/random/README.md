@@ -28,11 +28,7 @@ cd random
 
 ## 🔋 How to play
 
-In the `contracts/` you have a contract of Attacker. We encourage you to try and write the contract on your own. Inside the file you can find some inline documentation which should guide you to the direction of the solution. Even if you don't manage to crack this one, don't worry - it will help you understand the code structure.
-
-
-For those who just want to enjoy the action - [SOLUTION]((https://github.com/chain4travel/camino-builder/challenges/solutions/random))
-
+In the `contracts/` you have a contract of Attacker. We encourage you to try and write the contract on your own. Inside the file you can find some inline documentation which should guide you to the direction of the solution. Even if you don't manage to crack this one, don't worry - it will help you understand the code structure anyway.
 
 
 ## 🎑 [Back to Mainpage](https://github.com/chain4travel/camino-builder)
