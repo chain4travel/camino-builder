@@ -15,6 +15,7 @@ Learn how to deploy and work with smart contracts on Camino network. Dive into d
 
 - [Requirements](#requirements)
 - [Deployed contracts](#deployed-interactable-contracts)
+- [Theory]()
 - [Start Building](#start-building)
 - [Testing](#testing)
 - [Learn More](#learn-more)
@@ -35,12 +36,18 @@ To run and interact with these projects, you will need:
 > 🚩 NOTE! After cloning the repo - the only setup you need to perform is (setting up .env)[https://github.com/chain4travel/camino-builder/setup] in each subdir! Hardhat won't be able to pull from .env that is located in the root directory!
 
 
+
 ## 📜 Start Building
  - 🍋  [Create your first NFT](https://github.com/chain4travel/camino-builder/tree/c4t/nft)
  - 🎫  [Make a token-gate access NFT](https://github.com/chain4travel/camino-builder/tree/c4t/token-gate)
  - 💸  [Create a KYC-compliant contract](https://github.com/chain4travel/camino-builder/tree/c4t/kyc)
  - 💎  [Deploy a token](https://github.com/chain4travel/camino-builder/tree/c4t/token)
  - 💵  [Build a staking smart contract](https://github.com/chain4travel/camino-builder/tree/c4t/staking)
+
+## Keep Learning
+- [Theory](https://github.com/chain4travel/camino-builder/tree/c4t/theory)
+- [Security Studies](https://github.com/chain4travel/camino-builder/tree/c4t/security)
+- [Front-end Integration](https://github.com/chain4travel/camino-builder/tree/c4t/front-end)
 
 ## 🔌 Testing
 - 1️⃣ [Intro to Tests](https://github.com/chain4travel/camino-builder/tree/c4t/testing/intro)
@@ -60,8 +67,26 @@ To run and interact with these projects, you will need:
 - [Waffle/Chai Matchers Documentation](https://ethereum-waffle.readthedocs.io/en/latest/matchers.html)
 - [Mocha](https://mochajs.org/)
 - [Web3.js](https://web3js.readthedocs.io/en/v1.10.0/)
+- [Viem](https://viem.sh/)
+- [Openzeppelin](https://www.openzeppelin.com/)
+- [Alchemy](https://www.alchemy.com/)
 - Static Analysis Tools: [Mythril](https://mythril.ai/), [Slither](https://github.com/crytic/slither)
 - Prep Session 1 Diagram: [.excalidraw](https://github.com/chain4travel/camino-builder/tree/c4t/utils/ps.excalidraw), [.svg](https://github.com/chain4travel/camino-builder/tree/c4t/utils/ps1.svg)
+
+## Developer Tools
+- [Gelato](https://www.gelato.network/automate)
+- [Chainlink](https://chain.link/)
+- [Tenderly](https://tenderly.co/)
+- [Code4rena](https://code4rena.com/)
+
+## Big Names and their Code
+- [Uniswap](https://github.com/Uniswap/v2-periphery/tree/master)
+- [Curve](https://github.com/curvefi/curve-contract)
+- [ZK Sync](https://github.com/code-423n4/2023-03-zksync/tree/main/contracts)
+- [ENS](https://github.com/code-423n4/2023-10-ens/tree/main/contracts)
+- [Arbitrum](https://github.com/ArbitrumFoundation/governance/tree/c18de53820c505fc459f766c1b224810eaeaabc5/src/security-council-mgmt)
+- [OpenSea](https://github.com/ProjectOpenSea/seaport/tree/5de7302bc773d9821ba4759e47fc981680911ea0/contracts)
+
 
 ## Contact Us
 
