@@ -45,9 +45,9 @@ To run and interact with these projects, you will need:
  - 💵  [Build a staking smart contract](https://github.com/chain4travel/camino-builder/tree/c4t/staking)
 
 ## Keep Learning
-- 💾[Theory](https://github.com/chain4travel/camino-builder/tree/c4t/theory)
-- 🐚[Security Studies](https://github.com/chain4travel/camino-builder/tree/c4t/security)
-- 🌸[Front-end Integration](https://github.com/chain4travel/camino-builder/tree/c4t/front-end)
+- 💾 [Theory](https://github.com/chain4travel/camino-builder/tree/c4t/theory)
+- 🐚 [Security Studies](https://github.com/chain4travel/camino-builder/tree/c4t/security)
+- 🌸 [Front-end Integration](https://github.com/chain4travel/camino-builder/tree/c4t/front-end)
 
 ## 🔌 Testing
 - 1️⃣ [Intro to Tests](https://github.com/chain4travel/camino-builder/tree/c4t/testing/intro)
