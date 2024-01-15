@@ -45,9 +45,9 @@ To run and interact with these projects, you will need:
  - 💵  [Build a staking smart contract](https://github.com/chain4travel/camino-builder/tree/c4t/staking)
 
 ## Keep Learning
-- [Theory](https://github.com/chain4travel/camino-builder/tree/c4t/theory)
-- [Security Studies](https://github.com/chain4travel/camino-builder/tree/c4t/security)
-- [Front-end Integration](https://github.com/chain4travel/camino-builder/tree/c4t/front-end)
+- 💾[Theory](https://github.com/chain4travel/camino-builder/tree/c4t/theory)
+- 🐚[Security Studies](https://github.com/chain4travel/camino-builder/tree/c4t/security)
+- 🌸[Front-end Integration](https://github.com/chain4travel/camino-builder/tree/c4t/front-end)
 
 ## 🔌 Testing
 - 1️⃣ [Intro to Tests](https://github.com/chain4travel/camino-builder/tree/c4t/testing/intro)
@@ -73,13 +73,13 @@ To run and interact with these projects, you will need:
 - Static Analysis Tools: [Mythril](https://mythril.ai/), [Slither](https://github.com/crytic/slither)
 - Prep Session 1 Diagram: [.excalidraw](https://github.com/chain4travel/camino-builder/tree/c4t/utils/ps.excalidraw), [.svg](https://github.com/chain4travel/camino-builder/tree/c4t/utils/ps1.svg)
 
-## Developer Tools
+## ⌚ Developer Tools
 - [Gelato](https://www.gelato.network/automate)
 - [Chainlink](https://chain.link/)
 - [Tenderly](https://tenderly.co/)
 - [Code4rena](https://code4rena.com/)
 
-## Big Names and their Code
+## 🔦 Big Names and their Code
 - [Uniswap](https://github.com/Uniswap/v2-periphery/tree/master)
 - [Curve](https://github.com/curvefi/curve-contract)
 - [ZK Sync](https://github.com/code-423n4/2023-03-zksync/tree/main/contracts)

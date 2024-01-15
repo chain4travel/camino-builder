@@ -21,7 +21,10 @@ Binary data payload
 7. v,r,s
 Components of the digital signature
 
-### Transaction Flow
+
+### Digital Signature
+
+Foundation of the blockchain technology is the cryptography. The decentralized computer only makes sense if it is secure. EVM uses ECDSA (Eliptic Curve Digital Signature Algorithm), which is an asymmetric cryptographic algorithm, which works with public-private key pairs. The core component pushing the idea forward is having a user confirm the ownership without revealing the private information.
 
 
 
@@ -53,12 +56,4 @@ gasLimit - max amount of gas that is going to be purchased
 
 Wallet is a software that manages private keys. It is more commonly seen as the users account, and it is indeed the entrypoint from the user side. What happens behind the scenes is wallet handling all the things that you don't want to see yourself. Wallet signs transactions using your private key, offers software for authentication, handles the infrastructure connecting applications to smart contracts.
 
-Concepts
-
-Contract ABI
-
-
-Vocabulary
-
-Standards
 

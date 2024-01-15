@@ -1,4 +1,4 @@
-#  🍱 Front-End Integration
+#  🌟 Front-End Integration
 
 > In here you'll find a rough example showing how smart contracts coexist with frontend. This is not a front-end development tutorial, thus we will only emphasize points of integration.
 
