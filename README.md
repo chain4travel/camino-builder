@@ -33,7 +33,7 @@ To run and interact with these projects, you will need:
 - [Camino Wallet](https://suite.camino.network/login/) (KYC-Verified)
 
 
-> 🚩 NOTE! After cloning the repo - the only setup you need to perform is (setting up .env)[https://github.com/chain4travel/camino-builder/setup] in each subdir! Hardhat won't be able to pull from .env that is located in the root directory!
+> 🚩 NOTE! After cloning the repo - the only setup you need to perform is [setting up .env](https://github.com/chain4travel/camino-builder/setup) in each subdir! Hardhat won't be able to pull from .env that is located in the root directory!
 
 
 
