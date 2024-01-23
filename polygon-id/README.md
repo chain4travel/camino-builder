@@ -57,7 +57,7 @@ Examples:
 
 To help you figure out your next step - let's look at an example a challenge submission and breaking down how you can build it. Below you see a diagram describing a Booking Platform integrating Polygon ID, working with `Reservation Credentials`.
 
-!(Diagram)[https://github.com/juuroudojo/toolsReal/blob/main/images1/Untitled%20(1).png]
+!(image)[https://github.com/juuroudojo/toolsReal/blob/main/images1/Untitled%20(1).png]
 
 
 ### Steps
