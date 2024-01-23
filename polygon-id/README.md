@@ -3,19 +3,19 @@
 We are excited to have Polygon ID as part of the DevWeekend event, and are excited to offer developers to integrate Polygon ID technology within your challenge submission. This section is dedicated to help you dive deeper into what Polygon ID is and how it works.
 
 ## Prerequisities
-- You'll need a Polygon ID Wallet, which you can install for (IOS)[https://apps.apple.com/us/app/polygon-id/id1629870183] and (Android)[https://play.google.com/store/apps/details?id=com.polygonid.wallet&hl=en&gl=US]
+- You'll need a Polygon ID Wallet, which you can install for [IOS](https://apps.apple.com/us/app/polygon-id/id1629870183) and [Android](https://play.google.com/store/apps/details?id=com.polygonid.wallet&hl=en&gl=US)
 
 
 ## 💾 Tools
-- (Issuer UI)[https://issuer-ui.polygonid.me/]
-- (Issuer API)[https://issuer-admin.polygonid.me/]
-- (Schema Builder)[https://schema-builder.polygonid.me/builder]
-- (Query Builder)[https://schema-builder.polygonid.me/query-builder]
+- [Issuer UI](https://issuer-ui.polygonid.me/)
+- [Issuer API](https://issuer-admin.polygonid.me/)
+- [Schema Builder](https://schema-builder.polygonid.me/builder)
+- [Query Builder](https://schema-builder.polygonid.me/query-builder)
 
 ## 📟 Userful Links
-- (PolygonID Documentation)[https://devs.polygonid.com/]
-- (Quick Start Demo)[https://devs.polygonid.com/docs/quick-start-demo/]
-- (PolygonID Smart Contract)[https://github.com/0xPolygonID/contracts]
+- [PolygonID Documentation](https://devs.polygonid.com/)
+- [Quick Start Demo](https://devs.polygonid.com/docs/quick-start-demo/)
+- [PolygonID Smart Contract](https://github.com/0xPolygonID/contracts)
 
 
 ## 🔦 What is PolygonID
@@ -24,7 +24,7 @@ We are excited to have Polygon ID as part of the DevWeekend event, and are excit
 
 Polygon ID is a complete platform that can be used to construct a variety of identity and trust services. The team is creating an open and enterprise-ready ecosystem for trust markets and trust management to build new attestation and access services with an incentive layer.
 
-We will introduce you to Polygon IDs terminology that you can meet throughout (PolygonID Documentation)[https://devs.polygonid.com/].
+We will introduce you to Polygon IDs terminology that you can meet throughout [PolygonID Documentation](https://devs.polygonid.com/).
 
 ### 📜 Vocabulary
 
@@ -57,7 +57,7 @@ Examples:
 
 To help you figure out your next step - let's look at an example a challenge submission and breaking down how you can build it. Below you see a diagram describing a Booking Platform integrating Polygon ID, working with `Reservation Credentials`.
 
-!(image)[https://github.com/juuroudojo/toolsReal/blob/main/images1/Untitled%20(1).png]
+![image](https://github.com/juuroudojo/toolsReal/blob/main/images1/Untitled%20(1).png)
 
 
 ### Steps
