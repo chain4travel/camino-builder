@@ -72,9 +72,11 @@ Binary data payload
 Components of the digital signature
 
 
+
 ### Digital Signature
 
 Foundation of the blockchain technology is the cryptography. The decentralized computer only makes sense if it is secure. EVM uses ECDSA (Eliptic Curve Digital Signature Algorithm), which is an asymmetric cryptographic algorithm, which works with public-private key pairs. The core component pushing the idea forward is having a user confirm the ownership without revealing the private information.
+
 
 
 
@@ -94,16 +96,20 @@ See the image below to understand the difference
 
 An example of STATICCALL being the foundation of the technology is [Gelato](https://www.gelato.network/automate). If you are interested in the technology I recommend you give their docs a read. To explain the core of the idea - gelato allows you to automate your contract by calling the view function with a staticcall all the time. If the function returns false - it just keeps calling it periodically. If the function you set up returns true - it executes the code you put there. 
 
+
+
 ### Gas
 
 EVM is a turing complete computer. Thus it faces a challenge all such systems do - halting problem. There is no way to predict whether a call is going to terminate prior to execuing the call. For blockchain this would be a drastic detriment. In an effort to solve this issue - gas was introduced. Gas is a metric system that calculates the amount of computation and quantifies it in a for of gas. This gives a way to predict the amount of computation as well as introduce limits, like gasLimit, which basically solves the initial problem.
 
-gasPrice - amount that is being paid for a unit of gas (in wei)
+> gasPrice - amount that is being paid for a unit of gas (in wei)
 
-gasLimit - max amount of gas that is going to be purchased
+> gasLimit - max amount of gas that is going to be purchased
+
+
 
 ### Wallet
 
-Wallet is a software that manages private keys. It is more commonly seen as the users account, and it is indeed the entrypoint from the user side. What happens behind the scenes is wallet handling all the things that you don't want to see yourself. Wallet signs transactions using your private key, offers software for authentication, handles the infrastructure connecting applications to smart contracts.
+A wallet is software that manages private keys. It is often perceived as the user's account and indeed serves as the entry point from the user's perspective. Behind the scenes, the wallet handles various tasks that users typically prefer not to manage themselves. It signs transactions using the user's private key, provides authentication software, and manages the infrastructure that connects applications to smart contracts.
 
 

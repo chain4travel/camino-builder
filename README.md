@@ -38,11 +38,13 @@ To run and interact with these projects, you will need:
 
 
 ## 📜 Start Building
+ - 🔮  [PolygonID](https://github.com/chain4travel/camino-builder/tree/c4t/polygon-id)
  - 🍋  [Create your first NFT](https://github.com/chain4travel/camino-builder/tree/c4t/nft)
  - 🎫  [Make a token-gate access NFT](https://github.com/chain4travel/camino-builder/tree/c4t/token-gate)
  - 💸  [Create a KYC-compliant contract](https://github.com/chain4travel/camino-builder/tree/c4t/kyc)
  - 💎  [Deploy a token](https://github.com/chain4travel/camino-builder/tree/c4t/token)
  - 💵  [Build a staking smart contract](https://github.com/chain4travel/camino-builder/tree/c4t/staking)
+ 
 
 ## Keep Learning
 - 💾 [Theory](https://github.com/chain4travel/camino-builder/tree/c4t/theory)
