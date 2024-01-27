@@ -8,7 +8,7 @@ import "@openzeppelin/contracts/access/AccessControl.sol";
 contract TestToken is ERC20, AccessControl {
     address public owner;
 
-    constructor(uint256 initialSupply) ERC20("Earth", "EAR") {
+    constructor(uint256 initialSupply) ERC20("Sustainability Reward Token", "SRT") {
         _setupRole(DEFAULT_ADMIN_ROLE, msg.sender);
         _mint(msg.sender, initialSupply);
 
