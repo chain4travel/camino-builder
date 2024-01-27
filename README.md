@@ -33,7 +33,10 @@ To run and interact with these projects, you will need:
 - [Camino Wallet](https://suite.camino.network/login/) (KYC-Verified)
 
 
-> 🚩 NOTE! After cloning the repo - the only setup you need to perform is [setting up .env](https://github.com/chain4travel/camino-builder/setup) in each subdir! Hardhat won't be able to pull from .env that is located in the root directory!
+> 🚩 NOTES: 
+- After cloning the repo - the only setup you need to perform is [setting up .env](https://github.com/chain4travel/camino-builder/setup) in each subdir! Hardhat won't be able to pull from .env that is located in the root directory!
+- When compiling smart contracts for Columbus testnet with Remix IDE, don't forget to set the EVM version as 'istanbul'.
+(Default is 'shangai'). Otherwise the contract wouldn't compile.
 
 
 
