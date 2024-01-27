@@ -5,10 +5,10 @@ pragma solidity ^0.8.9;
 import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 import "@openzeppelin/contracts/access/AccessControl.sol";
 
-contract TestToken is ERC20, AccessControl {
+contract GreenOnionToken is ERC20, AccessControl {
     address public owner;
 
-    constructor(uint256 initialSupply) ERC20("Sustainability Reward Token", "SRT") {
+    constructor(uint256 initialSupply) ERC20("Green Onion", "GOT") {
         _setupRole(DEFAULT_ADMIN_ROLE, msg.sender);
         _mint(msg.sender, initialSupply);
 

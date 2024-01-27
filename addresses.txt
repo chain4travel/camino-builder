@@ -1,1 +1,3 @@
-SRT, Sustainability Reward Token, 0x3DAe064A75bC3254384Af56A010c9db91025b0F7
+GOT, Green Onion, 0xa82C570cFD03F8c5F45003A63a42C4658c3a8Eb6
+
+SRT, Sustainability Reward Token, 0x3DAe064A75bC3254384Af56A010c9db91025b0F7 (unused for now)
