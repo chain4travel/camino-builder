@@ -48,7 +48,6 @@ npm install
 
 ## Contents
 
-- [Requirements](#requirements)
 - [Deployed contracts](#deployed-interactable-contracts)
 - [Theory]()
 - [Start Building](#start-building)
@@ -56,20 +55,13 @@ npm install
 - [Learn More](#learn-more)
 - [Contact Us](#contact-us)
 
-## Requirements
+## ✳️ DECODE Preparation & Announcements
 
-Before you begin, you need to install the following tools:
-
-To run and interact with these projects, you will need:
-
-- [Node.js](https://nodejs.org/en/download/) (version 14.x or higher)
-- [npm](https://www.npmjs.com/get-npm) (usually bundled with Node.js)
-- [Hardhat](https://hardhat.org/getting-started/#overview) development environment
-- [Camino Wallet](https://suite.camino.network/login/) (KYC-Verified)
+- While in many cases you can use almost any wallet, a big part of functionality requires you to have a Camino Wallet. You can create one [here](https://suite.camino.network/login/). Hackathon participants are asked to pass a KYC-verfication process in advance, so that it doesn't slow you down during your building process.
 
 
 > 🚩 NOTES: 
-- After cloning the repo - the only setup you need to perform is [setting up .env](https://github.com/chain4travel/camino-builder/setup) in each subdir! Hardhat won't be able to pull from .env that is located in the root directory!
+- After cloning the repo - the only setup you need to perform is [setting up .env](https://github.com/chain4travel/camino-builder/setup). It is unique for each subdir! Hardhat won't be able to pull from .env that is located in the root directory!
 - When compiling smart contracts for Columbus testnet with Remix IDE, don't forget to set the EVM version as 'istanbul'.
 (Default is 'shangai'). Otherwise the contract wouldn't compile.
 
