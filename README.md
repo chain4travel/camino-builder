@@ -44,7 +44,7 @@ cd camino-builder
 npm install
 ```
 
-> And you are ready to go! 🚀
+### And you are ready to go! 🚀
 
 Now you don't need to create your project from scratch. You can use the project available for you in the repo. Build you contracts by changing or making new files in contracts/, use the script presets in scripts/ to deploy them. Good luck! 
 
