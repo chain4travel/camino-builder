@@ -31,14 +31,14 @@ Learn how to deploy and work with smart contracts on Camino network. Dive into d
 git clone https://github.com/chain4travel/camino-builder.git
 ```
 
-### 2. CD into the root directory by running
+2.  > CD into the root directory by running
 
 ```
 cd camino-builder
 
 ```
 
-### 3. Install all the dependencies that are prepared for you in package.json by running
+3. > Install all the dependencies that are prepared for you in package.json by running
 
 ```
 npm install
@@ -73,7 +73,7 @@ To run and interact with these projects, you will need:
 - When compiling smart contracts for Columbus testnet with Remix IDE, don't forget to set the EVM version as 'istanbul'.
 (Default is 'shangai'). Otherwise the contract wouldn't compile.
 
-
+![Explore](https://github.com/juuroudojo/toolsReal/blob/main/images1/explorer.png)
 
 ## 📜 Start Building
  - 🍋  [Create your first NFT](https://github.com/chain4travel/camino-builder/tree/c4t/nft)
