@@ -52,7 +52,7 @@ Now you don't need to create your project from scratch. You can use the project 
 ## Contents
 
 - [Deployed contracts](#deployed-interactable-contracts)
-- [Theory]()
+- [Theory](https://github.com/chain4travel/camino-builder/tree/c4t/theory)
 - [Start Building](#start-building)
 - [Testing](#testing)
 - [Learn More](#learn-more)
